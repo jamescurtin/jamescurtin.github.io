@@ -1042,7 +1042,7 @@ img.aligncenter {
   width: 100%;
 }
 .fixed-header .header-wrapper {
-  padding-top: 103px;
+  padding-top: 30px;
 }
 .slider-active .page-wrapper .header-wrapper {
   padding-top: 0;
@@ -2003,7 +2003,7 @@ table td {
 }
 .header-buttons {
   display: inline-block;
-  margin-top: 9px;
+  margin-top: 4px;
   float: right;
 }
 .header-search input[type="text"] {
@@ -3112,6 +3112,7 @@ ul#cs-slider-ul li {
 /* --------------- 4.8 Quick Gallery ---------------*/
 .quick-gallery {
   margin-left: -11px;
+  margin-top: 50px;
 }
 .qg-img {
   position: relative;
@@ -6438,7 +6439,7 @@ body.page-template-template-fullscreen-slider-php.mobile {
 .icon-lightbox:before,
 .icon-camera:before,
 .lightbox-icon:before {
-  content: "\f104";
+  content: "\f06e";
 }
 .icon-page:before,
 .icon-note:before,
@@ -6687,6 +6688,9 @@ div.mob-nav-menu > ul > li {
 }
 .fixed-header-scroll div.menu-ul > ul > li > ul {
   margin-top: 3px;
+}
+.fixed-header-scroll .header-buttons {
+  margin-top: 15px;
 }
 .admin-bar.fixed-header #header {
   top: 28px;
