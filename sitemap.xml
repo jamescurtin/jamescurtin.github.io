@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://jamescurtin.github.io/</loc>
+    <loc>http://jamescurtin.com/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/about.html</loc>
+    <loc>http://jamescurtin.com/about.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/resume.html</loc>
+    <loc>http://jamescurtin.com/resume.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/coursework.html</loc>
+    <loc>http://jamescurtin.com/coursework.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/portraits.html</loc>
+    <loc>http://jamescurtin.com/portraits.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/portfolio.html</loc>
+    <loc>http://jamescurtin.com/portfolio.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/events.html</loc>
+    <loc>http://jamescurtin.com/events.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/harvard.html</loc>
+    <loc>http://jamescurtin.com/harvard.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/nature.html</loc>
+    <loc>http://jamescurtin.com/nature.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/assorted.html</loc>
+    <loc>http://jamescurtin.com/assorted.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://jamescurtin.github.io/includes/pdf/james_curtin_resume.pdf</loc>
+    <loc>http://jamescurtin.com/includes/pdf/james_curtin_resume.pdf</loc>
     <priority>1.0</priority>
   </url>
 </urlset>
