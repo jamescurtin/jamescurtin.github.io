@@ -129,14 +129,14 @@ height: 0;
 	<div class="page-title-wrapper"><div class="page-title">
 		<div class="content-boxed">
 			<h1>Assorted</h1>
-			<span class="page-subtitle">James W. Curtin, Jr.</span>		</div>
+			<span class="page-subtitle">James W. Curtin</span>		</div>
 	</div>
 </div>
 
 </div>
 <div id="content-container" class=" layout-full">
 <div id="full-width" class="content">
-<div class="custom-page-content"><div class="section-boxed" id="section-1"><h2 style="text-align: center;" data-wpview-pad="1">This is a Quick Gallery added to a full-width page template with a full-width layout selected.</h2>
+<div class="custom-page-content"><div class="section-boxed" id="section-1">    <div class="nivo-content"><div class="nivo-wrapper"><div class="nivo-slider" id="nivo-slider-611" style="max-height:600px;"><img src="includes/img/photos/59.jpg" title="" alt="" /><img src="includes/img/photos/62.jpg" title="" alt="" /><img src="includes/img/photos/54.jpg" title="" alt="" /><img src="includes/img/photos/39.jpg" title="" alt="" /><img src="includes/img/photos/18.jpg" title="" alt="" /><img src="includes/img/photos/37.jpg" title="" alt="" /><img src="includes/img/photos/63.jpg" title="" alt="" /><img src="includes/img/photos/57.jpg" title="" alt="" /></div></div></div>
 </div><div class="quick-gallery qg-full qg-full-col-4" id="section-2">
 <div class="qg-img" data-defwidth="435"><a href="includes/img/photos/39.jpg" data-rel="lightbox[group-14681]" title="" ><img src="includes/img/photos/39.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div><div class="qg-img" data-defwidth="435"><a href="includes/img/photos/54.jpg" data-rel="lightbox[group-14681]" title="" ><img src="includes/img/photos/54.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div><div class="qg-img" data-defwidth="435"><a href="includes/img/photos/37.jpg" data-rel="lightbox[group-14681]" title="" ><img src="includes/img/photos/37.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div><div class="qg-img" data-defwidth="435"><a href="includes/img/photos/63.jpg" data-rel="lightbox[group-14681]" title="" ><img src="includes/img/photos/63.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div><div class="qg-img" data-defwidth="435"><a href="includes/img/photos/59.jpg" data-rel="lightbox[group-14681]" title="" ><img src="includes/img/photos/59.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div><div class="qg-img" data-defwidth="435"><a href="includes/img/photos/57.jpg" data-rel="lightbox[group-14681]" title="" ><img src="includes/img/photos/57.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div><div class="qg-img" data-defwidth="435"><a href="includes/img/photos/62.jpg" data-rel="lightbox[group-14681]" title="" ><img src="includes/img/photos/62.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div><div class="qg-img" data-defwidth="435"><a href="includes/img/photos/18.jpg" data-rel="lightbox[group-14681]" title="" ><img src="includes/img/photos/18.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div>
 
@@ -165,7 +165,9 @@ height: 0;
 <!-- FOOTER ENDS -->
 <script type='text/javascript' src='includes/js/underscore.min.js'></script>
 <script type='text/javascript' src='includes/js/main.js'></script>
+<script type="text/javascript" src="includes/js/nivo-slider.js"></script>
 <script type="text/javascript">var SITE = SITE || {};SITE.lightboxOptions = {"theme":"pp_default","animation_speed":"normal","overlay_gallery":false,"allow_resize":true};SITE.disableRightClick=false;SITE.stickyHeader=true;jQuery(document).ready(function($){
-	SITE.init.initSite();});</script>
+					SITE.init.initSite();SITE.init.nivoSlider($("#nivo-slider-611"), {"interval":2000,"speed":300,"autoplay":true,"pauseOnHover":true,"buttons":true,"arrows":true});
+		});</script>
 		</body>
 </html>
