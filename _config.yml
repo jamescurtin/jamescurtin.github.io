@@ -1,1 +1,2 @@
---watch
+gems: 
+    - jekyll-redirect-from
