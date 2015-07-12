@@ -6,13 +6,18 @@
 import random
 
 all = []
-people = [33,41,46,50,55,9,11,12,20,21,26,27,28,29,32,74,75,78,84]
-events = [34,36,42,43,49,10,12,13,14,15,16,17,19,22,23,24,25,30,31]
-harvard = [33,35,40,41,49,56,58,59,64,65,71,72,73,76,77,78,79]
-nature = [38,44,45,47,48,51,52,53,60,61,66,67,68,69,70,80,81,82,83]
-assorted = [37,39,54,57,59,62,63,18]
+people = [33,41,46,50,55,9,11,12,20,21,26,27,28,29,32,74,75,78,84,87,88,89,100]
+peopleslider = [3,2,5,4,16,17,18,19,21,24,26,25,27,37,45,64,68,69,75] 
+events = [34,36,42,43,49,10,12,13,14,15,16,17,19,22,23,24,25,30,31,85,86,102]
+eventsslider = [1,29,28,31,30,33,32,36,46,50,51,70]
+harvard = [33,35,40,41,49,56,58,59,64,65,71,72,73,76,77,78,79,101]
+harvardslider = [22,23,42,41,43,54,56,55,58,71,81]
+nature = [38,44,45,47,48,51,52,53,60,61,66,67,68,69,70,80,81,82,83,90,91,92,93,94,95,96,97,98,99]
+natureslider = [7,6,9,8,10,11,12,14,13,15,20,44,59,60,63,66,67,73,72,74,76,78,77,80,79]
+assorted = [37,39,54,57,59,62,63,18,103]
+assortedslider = [49,53,52,57,61,62,65,35,34,39,38,40,48,47]
 
-for i in range(1, 84):
+for i in range(1, 103):
 	all.append(i)
 
 random.shuffle(people)
@@ -61,22 +66,22 @@ bb = ''
 cc = ''
 dd = ''
 ee = ''
-for i in people:
-	aa += '<img src="/includes/img/photos/' + str(i) + '.jpg" title="" alt="" />'
+for i in peopleslider:
+	aa += '<img src="/includes/img/highres/slider' + str(i) + '.jpg" title="" alt="" />'
 print (aa)
 print ('----------VV--EVENTS_SLIDER--VV')
-for i in events:
-	bb += '<img src="/includes/img/photos/' + str(i) + '.jpg" title="" alt="" />'
+for i in eventsslider:
+	bb += '<img src="/includes/img/highres/slider' + str(i) + '.jpg" title="" alt="" />'
 print (bb)
 print ('----------VV--HARVARD_SLIDER--VV')
-for i in harvard:
-	cc += '<img src="/includes/img/photos/' + str(i) + '.jpg" title="" alt="" />'
+for i in harvardslider:
+	cc += '<img src="/includes/img/highres/slider' + str(i) + '.jpg" title="" alt="" />'
 print (cc)
 print ('----------VV--NATURE_SLIDER--VV')
-for i in nature:
-	dd += '<img src="/includes/img/photos/' + str(i) + '.jpg" title="" alt="" />'
+for i in natureslider:
+	dd += '<img src="/includes/img/highres/slider' + str(i) + '.jpg" title="" alt="" />'
 print (dd)
 print ('----------VV--ASSORTED_SLIDER--VV')
-for i in assorted:
-	ee += '<img src="/includes/img/photos/' + str(i) + '.jpg" title="" alt="" />'
+for i in assortedslider:
+	ee += '<img src="/includes/img/highres/slider' + str(i) + '.jpg" title="" alt="" />'
 print (ee)

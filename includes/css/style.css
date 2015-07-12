@@ -1055,7 +1055,7 @@ img.aligncenter {
   position: relative;
   margin: 0 auto;
   padding: 0 3%;
-  max-width: 1200px;
+    width: 65%;
 }
 .page-template-template-full-custom-php .section-boxed {
   max-width: 1200px;
@@ -3114,11 +3114,9 @@ ul#cs-slider-ul li {
 }
 /* Nivo Slider */
 .nivo-slider {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-  background-size: 16px 16px;
+    position:relative;
+    width: 100%;
+    text-align: center;
 }
 .nivo-slider img {
   position: absolute;
@@ -3367,7 +3365,7 @@ ul#cs-slider-ul li {
   height: 50px;
 }
 .nivo-wrapper {
-  position: relative;
+    width: 100%;
 }
 #slider-container .nivo-wrapper {
   min-height: 400px;
@@ -3375,7 +3373,8 @@ ul#cs-slider-ul li {
 }
 /* Nivo slider in content */
 .custom-page-content .nivo-content {
-  margin: 0;
+    width: 100%;
+    text-align: center;
 }
 .cs-type-video.loading {
   background-size: 15px 15px;
@@ -5027,7 +5026,8 @@ input[type="text"].search-input,
   margin-bottom: 0;
 }
 .custom-page-content {
-  min-height: 300px;
+  margin: auto;
+    width: 100%;
 }
 .testimonial-info {
   /*float: left;*/
@@ -9198,4 +9198,18 @@ div.pp_default .pp_close {
 }
 .accordion-container > p {
   margin: 0;
+}
+
+
+.nivo-slider; {
+    align-content: center;
+}
+
+#sliderdiv {
+width: 100%;
+}
+
+.nivo-slider; {
+    max-height: 600px;
+    max-width: 901px;
 }

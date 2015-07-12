@@ -8,7 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 var SITE = SITE || {};
 SITE.lightboxOptions = {
 	"theme":"pp_default","animation_speed":"normal","overlay_gallery":false,"allow_resize":true};
-	SITE.disableRightClick=false;
+	SITE.disableRightClick=true;
 	SITE.stickyHeader=true;
 	jQuery(document).ready(function($){
 					SITE.init.initSite();
