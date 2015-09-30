@@ -33,7 +33,7 @@ body {
   width: 240px;
 }
 .challenges-table td, .challenges-table th {
-  border: 1px solid #999;
+  border: 1px solid #fff;
   padding: 3px 7px 2px 7px;
   display: table-cell;
   vertical-align: inherit;
@@ -43,7 +43,7 @@ body {
   width: 100%;
   border-spacing: 2px;
   display: table;
-  border-color: grey;
+  border-color: none;
 }
 
 .challenges-table tbody {
@@ -150,4 +150,19 @@ body {
   border: 2px solid #5088ce;
   position: absolute;
   z-index: 1;
+}
+
+.under
+{
+position:absolute;
+left:0px;
+top:0px;
+z-index:-1;
+}
+.over
+{
+position:absolute;
+left:40px;
+top:10px;
+z-index:-1;
 }
