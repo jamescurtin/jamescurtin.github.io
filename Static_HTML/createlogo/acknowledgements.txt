@@ -1,0 +1,1 @@
+As cited in the HTML and CSS files, this submission used http://tutsplus.com for guidance on the proper way to format sticky notes on the screen, as well as http://www.w3schools.com for assistance with rotation and alternating colors, and other general CSS refreshers. Jquery was used for interactivity.
