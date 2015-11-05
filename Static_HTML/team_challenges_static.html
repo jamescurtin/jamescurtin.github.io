@@ -8,11 +8,13 @@
     <link href="./vMOBilize_files/forms.css" rel="stylesheet">
     <link href="./vMOBilize_files/circle.css" rel="stylesheet">
     <link href="./vMOBilize_files/game.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
 
     <!-- Resources -->
     <link href="./vMOBilize_files/font-awesome.min.css" rel="stylesheet">
     <link href="./vMOBilize_files/animate.css" rel="stylesheet">
     <link href="./vMOBilize_files/css" rel="stylesheet" type="text/css">
+    <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="http://www.vmobilize.org/favicon.ico?ver=2">
     <style type="text/css">
       .photolayer {
@@ -28,9 +30,29 @@
 
       .photolayer .overlay{
          position: relative;
-         top: -60px;
-         left: 20px;
+         top: -55px;
+         left: 25px;
 }
+}
+	.points { 
+		font-family: 'Crete Round', serif; font-weight: 400; 
+}
+.badge1 {
+   position:relative;
+}
+.badge1[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:-30px;
+   right:-5px;
+   font-size:1.25em;
+   background:red;
+   color:white;
+   width:30px;height:30px;
+   text-align:center;
+   line-height:30px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
 }
 </style></head>
 
@@ -62,6 +84,7 @@
             
 <li class="active">
   <a href="http://www.vmobilize.org/team">Team</a>
+
 </li>
 <li class="active">
   <a href="http://www.vmobilize.org/profile">Profile</a>
@@ -104,26 +127,50 @@
             <div class="row">          
             <div class="col-xs-12 col-sm-7 col-md-5">              
               
-                <img src="./vMOBilize_files/ag9zfnZtb2JpbGl6ZS13ZWJyEQsSBFRlYW0YgICAgIS0igoM" class="team-logo-md">
+                <img src="./vMOBilize_files/ag9zfnZtb2JpbGl6ZS13ZWJyEQsSBFRlYW0YgICAgIS0igoM" class="team-logo-md"><br>
               
               
               
-                <span id="popup_invitation"><span class="glyphicon glyphicon-link" aria-hidden="true"></span>Quick Invitation Link</span> 
+                <span id="popup_invitation"><span class="glyphicon glyphicon-link" aria-hidden="true"></span>Quick Invitation Link</span>
                 <div id="invitation_popup"><input type="text" value="http://www.vmobilize.org/join_team/5675267779461120/"></div>
               
             </div>
-            <div class="col-xs-12 col-sm-5 col-md-7" style="text-align: left;">
+            <div class="col-xs-12 col-sm-5 col-md-4" style="text-align: left;">
               <div>
                 <br>Team Captain: <a class="captain_name" href="http://www.vmobilize.org/profile/james+curtin">James Curtin</a>
                 <br>Established: Sep 02, 2015
                 <br>Members: 1
-                <br><span style="display:inline-block">Team Points: <span id="team_points" class="points">15</span></span>
                 <span style="display:inline-block">Your Points: <span id="player_points" class="points">15</span></span>
               </div>
             </div>
+            <div class="col-xs-12 col-sm-5 col-md-3" style="text-align: center;">
+            Total Team Points:
+              <h1 class="points">15</h1>
+            </div>
             </div>
           </div>
-        </div>      
+        </div>
+
+                <div class="panel panel-default">
+          <div class="panel-heading">
+            Award (possible place for weekly badges?) These trophies were from a previous idea that is maybe less relevant now.
+          </div>
+          <div class="panel-body">
+            <div class="row">
+             <table class="challenges-table col-sm-12">
+              <tbody>
+                <tr>
+                <td>            <img src="badges/gold.png" height="40"></td>
+                <td>            <img src="badges/silver.png" height="40"></td>
+                <td>            <img src="badges/bronze.png" height="40"></td>
+                </tr>
+                </tbody>
+                </table>
+            </div>
+          </div>
+        </div>   
+
+
         <div class="panel panel-default">
           <div class="panel-heading">
             Challenges
@@ -134,17 +181,15 @@
                 <tr>
                   <th></th>
                   <th>Challenge</th>
-                  <th>Award</th>
                   <th>Total Team Points</th>
                   <th>% Team completing challenge</th>
                   <th>Available until</th>
                 </tr>
                 <tr>
                 <td>
-                   <img src="badges/1.png" width="80"/>
+                   <a href="" class="badge1" data-badge="4"><img src="badges/1.png" width="80"/></a>
                 </td>
                   <td><a href="#">Ask a Candidate a Question</a></td>
-                  <td><img src="badges/gold.png" height="40"></td>
                   <td>75 points</td>
                   <td> <div class="c100 p90 small">
                   <span>90%</span>
@@ -167,7 +212,6 @@
                    <img src="badges/2.png" width="80"/>
                 </td>
                   <td><a href="#">Check-in: Washington Monument</a></td>
-                  <td><img src="badges/silver.png" height="40"></td>
                   <td>50 points</td>
                   <td> <div class="c100 p50 small">
                   <span>50%</span>
@@ -190,7 +234,6 @@
                    <img src="badges/3.png" width="80"/>
                 </td>
                   <td><a href="#">Who do you Pick? Candidate Match-up</a></td>
-                  <td><img src="badges/bronze.png" height="40"></td>
                   <td>20 points</td>
                   <td> <div class="c100 p20 small">
                   <span>20%</span>
@@ -200,7 +243,7 @@
                       </div>
                     </div>
                     </td>
-                    <td style="color:red; font-weight:bold">October 5, 2015</td>
+                    <td>November 10, 2015<br><p style="color:red; font-weight:bold">Ending soon!</p></td>
                 </tr>
 
 
@@ -212,11 +255,9 @@
                 <td>
                   <div class="photolayer">
                    <img src="badges/6bw.png" width="80" class="base" />
-                   <img src="badges/lock.png" width="40" class="overlay" style="z-index: 1" />
                   </div>
                 </td>
-                  <td><a href="#">LOCKED: 75% of team must complete Candidate Match-up to access</a></td>
-                  <td></td>
+                  <td><a href="#">Another challenge</a></td>
                   <td>0 points</td>
                   <td> <div class="c100 p0 small">
                   <span>0%</span>
@@ -238,11 +279,10 @@
                 <td>
                   <div class="photolayer">
                    <img src="badges/7bw.png" width="80" class="base" />
-                   <img src="badges/lock.png" width="40" class="overlay" style="z-index: 1" />
+                   <img src="badges/lock.png" width="30" class="overlay" style="z-index: 1" />
                   </div>
                 </td>
                   <td><a href="#">LOCKED: All members must complete 5 challenges each to access this team challenge.</a></td>
-                  <td></td>
                   <td>0 points</td>
                   <td> <div class="c100 p0 small">
                   <span>0%</span>
