@@ -33,7 +33,7 @@ body {
   width: 240px;
 }
 .challenges-table td, .challenges-table th {
-  border: 1px solid #fff;
+  border: 1px solid #999;
   padding: 3px 7px 2px 7px;
   display: table-cell;
   vertical-align: inherit;
@@ -43,7 +43,7 @@ body {
   width: 100%;
   border-spacing: 2px;
   display: table;
-  border-color: none;
+  border-color: grey;
 }
 
 .challenges-table tbody {
@@ -77,6 +77,7 @@ body {
 
 .points {
   font-weight: bold;
+  font-family: 'Crete Round', serif; 
 }
 
 .panel-heading {
@@ -152,17 +153,54 @@ body {
   z-index: 1;
 }
 
-.under
-{
-position:absolute;
-left:0px;
-top:0px;
-z-index:-1;
+.chal_badge { /* formerly photolyer */
+    position: center;
 }
-.over
-{
-position:absolute;
-left:40px;
-top:10px;
-z-index:-1;
+
+.chal_badge .base {
+   position: center;
+   top: 0;
+   left: 0;
+   z-index : 0;
+}
+
+.chal_badge .overlay {
+   position: relative;
+   top: -55px;
+   left: 25px;
+}
+
+
+.chal_count {  /* formerly badge1 */
+   position:relative;
+}
+
+.chal_count[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:-30px;
+   right:-5px;
+   font-size:1.25em;
+   background:red;
+   color:white;
+   width:30px;height:30px;
+   text-align:center;
+   line-height:30px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+
+.small_ico {
+  width: 40px;
+}
+
+.badge {
+  background-color: #eeeeee;
+  color: #000000;
+  padding-top: 10px;
+}
+
+.badge img {
+    display: block;
+    margin: 0 auto;
 }
