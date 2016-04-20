@@ -2,25 +2,23 @@
 redirect_from: "/404/"
 redirect_from: "/portfolio/outdoors/jamescurtin.com"
 redirect_from: "/portfolio/harvard/jamescurtin.com"
+title: "404"
+subtitle: "Page Not Found"
+slider: "slider_404.html"
 ---
 {% include header.html %}
-	<div class="page-title-wrapper"><div class="page-title">
-		<div class="content-boxed">
-			<h1>404</h1>
-			<span class="page-subtitle">Page Not Found</span>		</div>
-	</div>
-</div>
-
-</div>
-<div id="content-container" class=" layout-full">
-<div id="full-width" class="content">
-<div class="custom-page-content">
-<div class="section-full-width section-light2 parallax-fixed" style="background-color:#EDF5F7;" id="lightstyletwo"><div style="background-image:url(http://pexetothemes.com/demos/story_wp/wp-content/uploads/2014/05/skyline-blue.jpg); opacity:0.1; filter: alpha(opacity=10);" class="full-bg-image" ></div><div class="section-boxed" style="color:#252525;"><h4 class="sub-title" style="color:#252525;">Some Pictures to Look at While You're Here...</h4>
-    <div class="nivo-content"><div class="nivo-wrapper"><div class="nivo-slider" id="nivo-slider-611" style="max-height:600px;"><img src="/includes/img/sliders/slider_19.jpg" title="" alt="" /><img src="/includes/img/sliders/slider_10.jpg" title="" alt="" /><img src="/includes/img/sliders/slider_18.jpg" title="" alt="" /><img src="/includes/img/sliders/slider_11.jpg" title="" alt="" /><img src="/includes/img/sliders/slider_5.jpg" title="" alt="" /><img src="/includes/img/sliders/slider_13.jpg" title="" alt="" /><img src="/includes/img/sliders/slider_8.jpg" title="" alt="" /></div></div></div>
-    
-</div></div>
-</div></div> <!-- end main content holder (#content/#full-width) -->
-<div class="clear"></div>
-</div> <!-- end #content-container -->
-</div>
+			<div id="content-container" class=" layout-full">
+				<div id="full-width" class="content">
+					<div class="custom-page-content">
+						<div class="section-full-width section-light2 parallax-fixed" style="background-color:#EDF5F7;" id="lightstyletwo">
+							<div style="background-image:url(/includes/img/background.jpg); opacity:0.1; filter: alpha(opacity=10);" class="full-bg-image" ></div>
+							<div class="section-boxed" style="color:#252525;">
+								<h4 class="sub-title" style="color:#252525;">Some Pictures to Look at While You're Here...</h4>
+								{% include slider.html %}
+							</div>
+						</div>
+					</div>
+				</div> <!-- end main content holder (#content/#full-width) -->
+				<div class="clear"></div>
+			</div> <!-- end #content-container -->
 {% include footer.html %}

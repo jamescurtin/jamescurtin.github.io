@@ -1,131 +1,112 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="author" content="James Curtin">
-<meta name="description" content="Portfolio of event photography">
-<meta name="keywords" content="event, james curtin, james, curtin, photography, harvard">
-<title>Events</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="James Curtin">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <title>{{ page.title }}</title>
 
-
-
-<!-- Mobile Devices Viewport Resset-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=1" /> -->
-<link href="/includes/img/favicon.ico" rel="icon">
-<link rel='stylesheet' id='style-switcher-css-css'  href='/includes/css/style-switcher.css' type='text/css' media='all' />
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel=
-"stylesheet" />
-<link rel='stylesheet' id='font-0-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C400italic%2C700&#038;ver=4.1.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-1-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=4.1.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-2-css'  href='https://fonts.googleapis.com/css?family=Abril+Fatface&#038;ver=4.1.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-3-css'  href='https://fonts.googleapis.com/css?family=Lato%3A100%2C300&#038;ver=4.1.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-4-css'  href='http://fonts.googleapis.com/css?family=Oswald&#038;ver=4.1.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-5-css'  href='https://fonts.googleapis.com/css?family=Old+Standard+TT%3A400%2C700&#038;ver=4.1.5' type='text/css' media='all' />
-<link rel='stylesheet' id='fullpage-css-css'  href='/includes/css/fullpage.css' type='text/css' media='all' />
-<link rel='stylesheet' id='pretty-photo-css'  href='/includes/css/prettyPhoto.css' type='text/css' media='all' />
-<link rel='stylesheet' id='stylesheet-css'  href='/includes/css/style.css' type='text/css' media='all' />
-<style id='stylesheet-inline-css' type='text/css'>
-.large-header .page-title-wrapper{min-height:450px; height:450px;}.index #header, .index #footer {
-    display: none;
-}
-.index .page-subtitle{
-	margin-bottom: 55px;
-}
-body>iframe {
-height: 0;
-}
-</style>
-    
-<script type='text/javascript' src='https://code.jquery.com/jquery-1.11.1.js'></script>
-<script type='text/javascript' src='/includes/js/jquery/jquery-migrate-1.2.1.min.js'></script>
-<script type='text/javascript' src='/includes/js/style-switcher.js'></script>
-    
+    <!-- Mobile Devices Viewport Resset-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=1" /> -->
+    <link href="/includes/img/favicon.ico" rel="icon">
+    <link rel='stylesheet' id='style-switcher-css-css'  href='/includes/css/style-switcher.css' type='text/css' media='all' />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel=
+    "stylesheet" />
+    <link rel='stylesheet' id='font-0-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C400italic%2C700&#038;ver=4.1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-1-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=4.1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-2-css'  href='https://fonts.googleapis.com/css?family=Abril+Fatface&#038;ver=4.1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-3-css'  href='https://fonts.googleapis.com/css?family=Lato%3A100%2C300&#038;ver=4.1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-4-css'  href='http://fonts.googleapis.com/css?family=Oswald&#038;ver=4.1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-5-css'  href='https://fonts.googleapis.com/css?family=Old+Standard+TT%3A400%2C700&#038;ver=4.1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='fullpage-css-css'  href='/includes/css/fullpage.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='pretty-photo-css'  href='/includes/css/prettyPhoto.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='stylesheet-css'  href='/includes/css/style.css' type='text/css' media='all' />
+    <style id='stylesheet-inline-css' type='text/css'>
+        .large-header .page-title-wrapper{min-height:450px; height:450px;}.index #header, .index #footer {
+            display: none;
+        }
+        .index .page-subtitle{
+            margin-bottom: 55px;
+        }
+        body>iframe {
+            height: 0;
+        }
+    </style>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.1.js'></script>
+    <script type='text/javascript' src='/includes/js/jquery/jquery-migrate-1.2.1.min.js'></script>
+    <script type='text/javascript' src='/includes/js/style-switcher.js'></script>
 </head>
+
 <body class="page page-template page-template-template-full-custom page-template-template-full-custom-php fixed-header no-slider icons-style-light parallax-header">
-<div id="main-container" >
-	<div  class="page-wrapper" >
-		<!--HEADER -->
-				<div class="header-wrapper" >
-
-				<header id="header">
-			<div class="section-boxed section-header">
-			<div id="logo-container">
-								<a href="/"><img src="/includes/img/logo.png" alt="Website Logo" /></a>
-			</div>	
-
-			
-			<div class="mobile-nav">
-				<span class="mob-nav-btn">Menu</span>
-			</div>
-	 			 		<nav class="navigation-container">
-				<div id="menu" class="nav-menu">
-				<ul id="menu-story-main-menu" class="menu-ul">
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom mega-menu-item"><a href="/">Home</a></li>
-    <li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom mega-menu-item"><a href="/about/">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="/resume/">Resume</a>
-<ul class="sub-menu">
-    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/coursework/">Coursework</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="/portfolio/">Portfolio</a>
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/portraits/">People</a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/events/">Events</a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/harvard/">Harvard</a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/nature/">Nature/Outdoors</a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/assorted/">Assorted</a></li>
-</ul>
-</li>
-</ul>				</div>
-				
-				<div class="header-buttons">
-                <div class="social-profiles">
-                    <ul class="social-icons">
-                        <li>
-                            <a href="https://www.linkedin.com/in/jameswcurtin" target="_blank"
-                            title="LinkedIn">
-                            <div class="fa fa-linkedin fa-lg fa-inverse">
-                            </div></a>
-                        </li>
-
-
-                        <li>
-                            <a href="https://twitter.com/james_curtin" target="_blank" title="Twitter">
-                            <div class="fa fa-twitter fa-lg fa-inverse">
-                            </div></a>
-                        </li>
-
-
-                        <li>
-                            <a href="https://flickr.com/jameswcurtin" target="_blank" title=
-                            "Flickr">
-                            <div class="fa fa-flickr fa-lg fa-inverse">
-                            </div></a>
-                        </li>
-
-
-                        <li>
-                            <a href="https://plus.google.com/+JamesCurtinJr" target="_blank"
-                            title="Google+">
-                            <div class="fa fa-google-plus fa-lg fa-inverse">
-                            </div></a>
-                        </li>
-
-
-                        <li>
-                            <a href="https://github.com/jamescurtin" target="_blank" title=
-                            "GitHub">
-                            <div class="fa fa-github fa-lg fa-inverse">
-                            </div></a>
-                        </li>
-                    </ul>
+    <div id="main-container" >
+    	<div class="page-wrapper" >
+    		<!--HEADER -->
+    		<div class="header-wrapper" >
+    			<header id="header">
+                    <div class="section-boxed section-header">
+                        <div id="logo-container">
+                            <a href="/"><img src="/includes/img/logo.png" alt="Website Logo" /></a>
+                        </div>
+                        <div class="mobile-nav">
+    				        <span class="mob-nav-btn">Menu</span>
+                        </div>
+    	 			 	<nav class="navigation-container">
+                            <div id="menu" class="nav-menu">
+                                <ul id="menu-story-main-menu" class="menu-ul">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom mega-menu-item"><a href="/">Home</a></li>
+                                    <li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom mega-menu-item"><a href="/about/">About</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="/resume/">Resume</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/resume/">Resume/CV</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/coursework/">Coursework</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="/portfolio/">Portfolio</a>
+                                        <ul class="sub-menu">
+                                        	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/portraits/">People</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/events/">Events</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/harvard/">Harvard</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/nature/">Nature/Outdoors</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/assorted/">Assorted</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-buttons">
+                                <div class="social-profiles">
+                                    <ul class="social-icons">
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/jameswcurtin" target="_blank" title="LinkedIn"><div class="fa fa-linkedin fa-lg fa-inverse"></div></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/james_curtin" target="_blank" title="Twitter"><div class="fa fa-twitter fa-lg fa-inverse"></div></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://flickr.com/jameswcurtin" target="_blank" title="Flickr"><div class="fa fa-flickr fa-lg fa-inverse"></div></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://plus.google.com/+JamesCurtinJr" target="_blank" title="Google+"><div class="fa fa-google-plus fa-lg fa-inverse"></div></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/jamescurtin" target="_blank" title="GitHub"><div class="fa fa-github fa-lg fa-inverse"></div></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="clear"></div>
+                        <div id="navigation-line"></div>
+                    </div>
+                </header><!-- end #header -->
+                <div class="page-title-wrapper">
+                    <div class="page-title">
+                        <div class="content-boxed">
+                            <h1>{{ page.title }}</h1>
+                            <span class="page-subtitle">{{ page.subtitle }}</span>
+                        </div>
+                    </div>
                 </div>
-					</div>
-			</nav>  
-	
-			<div class="clear"></div>       
-			<div id="navigation-line"></div>
-		</div>
-		</header><!-- end #header -->
+            </div>

@@ -20,6 +20,8 @@ nature2 = [7,6,9,8,10,11,12,14,13,15,20,44,59,60,63,66,67,73,72,74,76,78,77,80,7
 assorted1 = [37,39,54,57,59,62,63,18,103,104,106,107,111,112,114,122]
 assorted2 = [49,53,52,57,61,62,65,35,34,39,38,40,48,47,84]
 
+slider404 = [5,8,10,11,13,18,19]
+
 
 class Page(object):
     def __init__(self, name, pictures):
@@ -49,10 +51,11 @@ nature = Page("nature", nature1)
 natureslider = Page("natureslider", nature2)
 assorted = Page("assorted", assorted1)
 assortedslider = Page("assortedslider", assorted2)
+slider_404 = Page("slider_404", slider404)
 mergedlist = Page("mergedlist", list(set(people.pictures + events.pictures + harvard.pictures + nature.pictures + assorted.pictures)))
 
 biglist1 = [people,events,harvard,nature,assorted,mergedlist]
-biglist2 = [peopleslider,eventsslider,harvardslider,natureslider,assortedslider]
+biglist2 = [peopleslider,eventsslider,harvardslider,natureslider,assortedslider, slider_404]
 
 html1 = ['<div class="qg-img" data-defwidth="435"><a href="/includes/img/photos/','.jpg" data-rel="lightbox[group-14681]" title="" ><img src="/includes/img/photos/','.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div>']
 html2 = ['<img src="/includes/img/highres/slider','.jpg" title="" alt="" />']

@@ -1,31 +1,23 @@
 ---
 redirect_from: "/events.html"
 redirect_from: "/portfolio/events/"
+description: "Portfolio of event photography"
+keywords: "event, james curtin, james, curtin, photography, harvard"
+title: "Events"
+subtitle: "James W. Curtin"
+slider: "eventsslider.html"
 ---
 {% include header.html %}
-  <div class="page-title-wrapper"><div class="page-title">
-    <div class="content-boxed">
-      <h1>Events</h1>
-      <span class="page-subtitle">James W. Curtin</span>    </div>
-  </div>
-</div>
-
-</div>
-<div id="content-container" class=" layout-full">
-<div id="full-width" class="content">
-<div class="custom-page-content"><div class="section-boxed" id="section-1">    <div class="nivo-content"><div class="nivo-wrapper"><div class="nivo-slider" id="nivo-slider-611" style="max-height:600px;">
-    
-{% include eventsslider.html %}
-    
-    </div></div></div>
-</div><div class="quick-gallery qg-full qg-full-col-4" id="section-2">
-    
-{% include events.html %}
-
-
-
-    <div class="clear"></div></div></div></div> <!-- end main content holder (#content/#full-width) -->
-<div class="clear"></div>
-</div> <!-- end #content-container -->
-</div>
+			<div id="content-container" class=" layout-full">
+				<div id="full-width" class="content">
+					<div class="custom-page-content">
+						{% include slider.html %}
+						<div class="quick-gallery qg-full qg-full-col-4" id="section-2">
+							{% include events.html %}
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div> <!-- end main content holder (#content/#full-width) -->
+				<div class="clear"></div>
+			</div> <!-- end #content-container -->
 {% include footer.html %}
