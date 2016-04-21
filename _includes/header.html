@@ -45,62 +45,7 @@
     	<div class="page-wrapper" >
     		<!--HEADER -->
     		<div class="header-wrapper" >
-    			<header id="header">
-                    <div class="section-boxed section-header">
-                        <div id="logo-container">
-                            <a href="/"><img src="/includes/img/logo.png" alt="Website Logo" /></a>
-                        </div>
-                        <div class="mobile-nav">
-    				        <span class="mob-nav-btn">Menu</span>
-                        </div>
-    	 			 	<nav class="navigation-container">
-                            <div id="menu" class="nav-menu">
-                                <ul id="menu-story-main-menu" class="menu-ul">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom mega-menu-item"><a href="/">Home</a></li>
-                                    <li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom mega-menu-item"><a href="/about/">About</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="/resume/">Resume</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/resume/">Resume/CV</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/coursework/">Coursework</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="/portfolio/">Portfolio</a>
-                                        <ul class="sub-menu">
-                                        	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/portraits/">People</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/events/">Events</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/harvard/">Harvard</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/nature/">Nature/Outdoors</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/assorted/">Assorted</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="header-buttons">
-                                <div class="social-profiles">
-                                    <ul class="social-icons">
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/jameswcurtin" target="_blank" title="LinkedIn"><div class="fa fa-linkedin fa-lg fa-inverse"></div></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/james_curtin" target="_blank" title="Twitter"><div class="fa fa-twitter fa-lg fa-inverse"></div></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://flickr.com/jameswcurtin" target="_blank" title="Flickr"><div class="fa fa-flickr fa-lg fa-inverse"></div></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://plus.google.com/+JamesCurtinJr" target="_blank" title="Google+"><div class="fa fa-google-plus fa-lg fa-inverse"></div></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/jamescurtin" target="_blank" title="GitHub"><div class="fa fa-github fa-lg fa-inverse"></div></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                        <div class="clear"></div>
-                        <div id="navigation-line"></div>
-                    </div>
-                </header><!-- end #header -->
+    			{% include menubar.html %}
                 <div class="page-title-wrapper">
                     <div class="page-title">
                         <div class="content-boxed">
