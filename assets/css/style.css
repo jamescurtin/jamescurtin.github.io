@@ -11,31 +11,31 @@
 */
 /* TABLE OF CONTENTS
 
-1.	Body
+1.  Body
 
-2.	Layout 
+2.  Layout 
 
-3.	Header
+3.  Header
 
-4.	Navigation 
+4.  Navigation 
 
-5.	Intro 
+5.  Intro 
 
-6.	About Section
+6.  About Section
 
-7.	Services Section
+7.  Services Section
 
-8.	Portfolio Section
+8.  Portfolio Section
 
-9.	Pricing Section
+9.  Pricing Section
 
-10.	Blog Section
+10. Blog Section
 
-11.	Contact Us Section
+11. Contact Us Section
 
-12.	Footer
+12. Footer
 
-13.	Responsive
+13. Responsive
 
 */
 
@@ -428,7 +428,7 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
     overflow: hidden;
     padding: 35px 0px;
     border-radius: 3px;
-	border-top:2px #e5e5e5 dotted
+  border-top:2px #e5e5e5 dotted
 }
 
 .padd25{padding:25px}
@@ -552,28 +552,28 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
   margin-bottom: 0 !important;
   -webkit-transition: background-color 0.3s, height 0.3s;
           transition: background-color 0.3s, height 0.3s;
-		  z-index:10;
-		   border-top:10px #000 solid
+      z-index:10;
+       border-top:10px #000 solid
 
 }
 
 .navbar-default:after {
     content: "";
     position: absolute;
-    height:70px;
+    height:80px;
     padding-bottom: 0px;
     width: 125%;
     background: #fed46e;
     -webkit-transform: rotate(-12deg);
     -ms-transform: rotate(-12deg);
     transform: rotate(-2deg);
-	bottom: 0px;
+  bottom: 0px;
     right: 0;
-	z-index:1;
+  z-index:1;
     -webkit-transform-origin: 100% 100%;
     -ms-transform-origin: 100% 100%;
     transform-origin: 100% 100%;
-	
+  
 }
 
 .navbar-right {position:relative; z-index:10}
@@ -600,7 +600,7 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
   padding: 30px 15px;
   -webkit-transition: padding 0.3s;
           transition: padding 0.3s;
-		      padding-bottom: 0px;
+          padding-bottom: 0px;
     z-index: 1000;
     position: relative;
 }
@@ -618,7 +618,7 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
   color: #000;
   -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
           transition: color 0.3s, background-color 0.3s, padding 0.3s;
-		  text-transform:uppercase
+      text-transform:uppercase
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus,
@@ -672,12 +672,12 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
     -webkit-transform: rotate(-12deg);
     -ms-transform: rotate(-12deg);
     transform: rotate(-2deg);
-	bottom: 0;
+  bottom: 0;
     right: 0;
     -webkit-transform-origin: 100% 100%;
     -ms-transform-origin: 100% 100%;
     transform-origin: 100% 100%;
-	
+  
 }
 
 .home .st-brand {
@@ -810,12 +810,12 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
     -webkit-transform: rotate(-12deg);
     -ms-transform: rotate(-12deg);
     transform: rotate(-2deg);
-	bottom: 0;
+  bottom: 0;
     right: 0;
     -webkit-transform-origin: 100% 100%;
     -ms-transform-origin: 100% 100%;
     transform-origin: 100% 100%;
-	
+  
 }
 
 .about img {border-radius:3px}
@@ -1909,7 +1909,7 @@ ul.styled-list.list-star li:before {
   margin-bottom: 6px;
   -webkit-transition: color 0.3s, background-color 0.3s, border-color 0.3s;
           transition: color 0.3s, background-color 0.3s, border-color 0.3s;
-		  background:#f8f8f8
+      background:#f8f8f8
 }
 .widget .tagcloud a:hover {
   border-color: #fed46e;
@@ -2115,18 +2115,22 @@ footer.site-footer a:hover {
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {background:#fed46e; border:none}
-  .home .hero-txt .hero-title {font-size:30px; line-height:normal}
+  .home .hero-txt .hero-title {font-size:30px; padding-bottom:30px; line-height:normal}
+  .st-navbar-mini .navbar-default {background-color:#fed46e; height: 70px;}
   .st-navbar-mini .navbar-default .navbar-brand img {width: 250px}
-
+  .navbar-default:after {height:80px;}
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {.navbar-default .navbar-collapse, .navbar-default .navbar-form {background:#fed46e; border:none}
-.home .hero-txt .hero-title {font-size:42px; line-height:normal}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {background:#fed46e; border:none}
+  .st-navbar-mini .navbar-default {background-color:#fed46e; height: 70px;}
+  .home .hero-txt .hero-title {font-size:42px; line-height:normal}
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1170px) {
 .home .hero-txt .hero-title {font-size:46px; line-height:normal}
+.st-navbar-mini .navbar-default {background-color:#fed46e; height: 70px;}
 }
 
 @media (min-width: 1440px) {
