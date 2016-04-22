@@ -1186,7 +1186,7 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
     -webkit-transform: rotate(-12deg);
     -ms-transform: rotate(-12deg);
     transform: rotate(-2deg);
-    /*bottom: 0;*/
+    bottom: 0;
     right: 0;
     -webkit-transform-origin: 100% 100%;
     -ms-transform-origin: 100% 100%;
@@ -2123,14 +2123,19 @@ footer.site-footer a:hover {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {background:#fed46e; border:none}
+  .home .hero-txt .hero-title {font-size:30px; padding-bottom:30px; line-height:normal}
   .st-navbar-mini .navbar-default {background-color:#fed46e; height: 70px;}
-  .home .hero-txt .hero-title {font-size:42px; line-height:normal}
+  .st-navbar-mini .navbar-default .navbar-brand img {width: 250px}
+  .navbar-default:after {height:80px;}
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1170px) {
-.home .hero-txt .hero-title {font-size:46px; line-height:normal}
-.st-navbar-mini .navbar-default {background-color:#fed46e; height: 70px;}
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {background:#fed46e; border:none}
+  .home .hero-txt .hero-title {font-size:30px; padding-bottom:30px; line-height:normal}
+  .st-navbar-mini .navbar-default {background-color:#fed46e; height: 70px;}
+  .st-navbar-mini .navbar-default .navbar-brand img {width: 250px}
+  .navbar-default:after {height:80px;}
 }
 
 @media (min-width: 1440px) {
