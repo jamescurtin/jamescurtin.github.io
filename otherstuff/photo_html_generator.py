@@ -76,7 +76,7 @@ mergedlist = Page("mergedlist", list(set(portrait.pictures + people.pictures + e
 biglist1 = [portrait,people,events,harvard,nature,assorted,mergedlist]
 biglist2 = [portraitslider,peopleslider,eventsslider,harvardslider,natureslider,assortedslider, slider_404]
 
-html1 = ['<div class="qg-img" data-defwidth="435"><a href="/includes/img/photos/photo_','.jpg" data-rel="lightbox[1]" title=" ','" ><img src="/includes/img/photos/photo_','.jpg" alt="','"/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title">','</span></div></a></div>']
+html1 = ['<div class="qg-img" data-defwidth="435"><a href="/includes/img/highres/highres_','.jpg" data-rel="lightbox[1]" title=" ','" ><img src="/includes/img/photos/photo_','.jpg" alt="','"/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title">','</span></div></a></div>']
 html2 = ['<img src="/includes/img/highres/highres_','.jpg" title="','" alt="" />']
 
 
