@@ -2148,15 +2148,15 @@ textarea.invalid {
   color: #b3b3b1;
 }
 /* Header Social Icons */
-.social-profiles {
+.soc-prof {
   float: right;
   margin: 0 0 0 5px;
 }
-.social-icons {
+.soc-ic {
   margin-left: 0;
   list-style: none;
 }
-.social-icons li {
+.soc-ic li {
   float: left;
   padding: 0px;
   width: 25px;
@@ -2164,7 +2164,7 @@ textarea.invalid {
   line-height: 1em;
   margin-right: 2px;
 }
-.social-icons li:hover {
+.soc-ic li:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -2176,7 +2176,7 @@ textarea.invalid {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.social-icons li:hover img {
+.soc-ic li:hover img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -2189,7 +2189,7 @@ textarea.invalid {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
 }
-.footer-bottom .social-profiles {
+.footer-bottom .soc-prof {
   display: none;
   margin: 0 3.06%;
 }
@@ -7015,7 +7015,7 @@ div.mob-nav-menu > ul > li {
 .light-icons .share-item,
 .light-icons .post-type-icon {
 }
-.light-icons .social-icons img {
+.light-icons .soc-ic img {
   -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
   -webkit-opacity: 0.8;
@@ -7585,23 +7585,23 @@ input.minus {
     height: auto !important;
   }
   /* Hide Elemnts for small-screen devices */
-  .social-profiles,
+  .soc-prof,
   .navigation-container {
     display: none;
   }
-  .footer-bottom .social-profiles {
+  .footer-bottom .soc-prof {
     display: block;
     float: none;
   }
-  .footer-bottom .social-icons {
+  .footer-bottom .soc-ic {
     margin-bottom: 10px;
     text-align: center;
   }
-  .footer-bottom .social-icons ul {
+  .footer-bottom .soc-ic ul {
     margin-left: 0;
     text-align: center;
   }
-  .footer-bottom .social-icons li {
+  .footer-bottom .soc-ic li {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -7610,7 +7610,7 @@ input.minus {
     border: 0px;
     background: rgba(255, 255, 255, 0.1);
   }
-  .footer-bottom .social-icons img {
+  .footer-bottom .soc-ic img {
     -moz-opacity: 0.7;
     -khtml-opacity: 0.7;
     -webkit-opacity: 0.7;
