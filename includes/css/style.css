@@ -6832,6 +6832,7 @@ div.pp_default .pp_overlay {
   opacity: 0.9 !important;
 }
 div.pp_default .pp_next {
+  background: url(../img/sprites/sprite_next_new.png) center left no-repeat;
   background-position: 97% 50%;
   cursor: pointer;
 }
@@ -6839,6 +6840,7 @@ div.pp_default .pp_next:hover {
   background-position: 97% 50%;
 }
 div.pp_default .pp_previous {
+  background: url(../img/sprites/sprite_prev_new.png) center left no-repeat;
   background-position: 3% 50%;
   cursor: pointer;
 }
@@ -8999,11 +9001,13 @@ div.pp_default .pp_next:hover {
 div.pp_default .pp_expand {
   width: 30px;
   height: 30px;
+  background: url(../img/sprites/sprite_expa2.png);
   background-size: 30px 30px;
 }
 div.pp_default .pp_expand:hover {
   width: 30px;
   height: 30px;
+  background: url(../img/sprites/sprite_expa.png);
   background-size: 30px 30px;
 }
 div.pp_default .pp_contract,
@@ -9025,6 +9029,7 @@ div.pp_default .pp_description {
 div.pp_default a.pp_arrow_previous,
 div.pp_default a.pp_arrow_next,
 div.pp_default .pp_close {
+  background: url('../img/sprites/sprite_bot.png');
   background-size: 56px 18px;
 }
 div.pp_default a.pp_arrow_previous {
