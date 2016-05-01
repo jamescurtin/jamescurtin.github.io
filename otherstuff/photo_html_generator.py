@@ -2,6 +2,7 @@
 #	$ python photo_html_generator.py
 
 import random
+import csv
 
 # 	List 1 is normal display
 # 	List 2 is the slider
@@ -23,6 +24,13 @@ nature2 = [19,75,53,15,16,33,44,81]
 assorted1 = []
 assorted2 = []
 
+reader = csv.DictReader(open('photoInfo.csv'))
+result = {}
+for row in reader:
+    key = row.pop('id')
+    if key in result:
+        pass
+    result[key] = row
 
 class Page(object):
     def __init__(self, name, pictures):
@@ -40,17 +48,18 @@ def genHTML(photoList, html):
 			shuffled = i.pictures
 
 		for j in shuffled:
-			if len(html) == 3:
-				base += html[0] + str(j) + html[1] + str(j) + html[2]
+			slug = str(j)
+			if len(html) == 6:
+				base += html[0] + slug + html[1] + result[slug]["caption"] + html[2] + slug + html[3] + result[slug]["alt"] + html[4] + result[slug]["title"] + html[5]
 			else:
-				base += html[0] + str(j) + html[1]
+				base += html[0] + slug + html[1] + result[slug]["title"] + html[2]
+
 		file = open("../_includes/" + i.name + ".html", "w")
 		file.write(base)
 		file.close()
 
 portrait = Page("portrait", portrait1)
 portraitslider = Page("portraitslider", portrait2)
-
 people = Page("people", people1)
 peopleslider = Page("peopleslider", people2)
 events = Page("events", events1)
@@ -62,13 +71,14 @@ natureslider = Page("natureslider", nature2)
 assorted = Page("assorted", assorted1)
 assortedslider = Page("assortedslider", assorted2)
 slider_404 = Page("slider_404", set(people.pictures + events.pictures + harvard.pictures + nature.pictures + assorted.pictures))
-mergedlist = Page("mergedlist", list(set(people.pictures + events.pictures + harvard.pictures + nature.pictures + assorted.pictures)))
+mergedlist = Page("mergedlist", list(set(portrait.pictures + people.pictures + events.pictures + harvard.pictures + nature.pictures + assorted.pictures)))
 
 biglist1 = [portrait,people,events,harvard,nature,assorted,mergedlist]
 biglist2 = [portraitslider,peopleslider,eventsslider,harvardslider,natureslider,assortedslider, slider_404]
 
-html1 = ['<div class="qg-img" data-defwidth="435"><a href="/includes/img/photos/photo_','.jpg" data-rel="lightbox[group-14681]" title="" ><img src="/includes/img/photos/photo_','.jpg" alt=""/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title"></span></div></a></div>']
-html2 = ['<img src="/includes/img/highres/highres_','.jpg" title="" alt="" />']
+html1 = ['<div class="qg-img" data-defwidth="435"><a href="/includes/img/photos/photo_','.jpg" data-rel="lightbox[1]" title=" ','" ><img src="/includes/img/photos/photo_','.jpg" alt="','"/><div class="qg-overlay"><span class="icon-circle"><span class="pg-icon lightbox-icon"></span></span><span class="qg-title">','</span></div></a></div>']
+html2 = ['<img src="/includes/img/highres/highres_','.jpg" title="','" alt="" />']
+
 
 genHTML(biglist1, html1)
 genHTML(biglist2, html2)

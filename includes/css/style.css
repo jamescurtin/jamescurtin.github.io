@@ -4820,7 +4820,8 @@ input[type="text"].search-input,
   margin-left: -30px;
   padding: 0;
   padding: 10px;
-  background: #A51C30;
+  background: #595959;
+  /*background: #A51C30;*/
 }
 .pg-element-loading .icon-circle {
   -webkit-transform: scale(1);
@@ -6739,7 +6740,7 @@ body.page-template-template-fullscreen-slider-php.mobile {
 .icon-lightbox:before,
 .icon-camera:before,
 .lightbox-icon:before {
-  content: "\f14c";
+  content: "\f065";
 }
 .icon-page:before,
 .icon-note:before,

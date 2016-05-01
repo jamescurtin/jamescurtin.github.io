@@ -521,7 +521,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 				#pp_full_res .pp_inline p { margin: 0 0 15px 0; }
 	
 		div.ppt {
-			color: #fff;
+			color: transparent;
 			display: none;
 			font-size: 17px;
 			margin: 0 0 5px 15px;
