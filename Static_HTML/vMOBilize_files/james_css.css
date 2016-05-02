@@ -1,0 +1,31 @@
+.upper {
+    position: relative;
+    top: -128px;
+    /*left: 0px;*/
+    background-color: transparent;
+    /*z-index: 1;*/
+}
+
+.lower {
+    position: relative;
+    /*top: 128px;*/
+    left: 0px;
+    /*z-index: -1;*/
+}
+.newbadge{
+    position: absolute;
+    bottom: 15px;
+    height: 171px;
+    /*margin-top: 500px;*/
+    /*background-color: red;*/
+}
+#tester:hover{
+    background-color: gold;
+}
+.panel-body{
+    position: relative;
+}
+
+.backgroundGold {
+    background: Gold;
+}
