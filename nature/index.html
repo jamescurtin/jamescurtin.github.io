@@ -11,10 +11,13 @@ slider: "natureslider.html"
 customjs: "smoothscroll.js"
 ---
 {% include header.html %}
+            <script src="../includes/js/photo_loader.js"></script>
 			<div id="content-container" class=" layout-full">
 				<div id="full-width" class="content">
 					<div class="custom-page-content">
-						{% include slider.html %}
+						<div class="slider">
+							{% include slider.html %}
+						</div>
 						<div class="quick-gallery qg-full qg-full-col-3" id="section-2">
 							{% include nature.html %}
 							<div class="clear"></div>
