@@ -2,3 +2,5 @@ gems:
     - jekyll-redirect-from
 
 encoding: utf-8
+
+url: https://www.jamescurtin.com

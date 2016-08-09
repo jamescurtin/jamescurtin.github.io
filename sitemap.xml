@@ -5,68 +5,62 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://www.jamescurtin.com/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/about/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/about/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/resume/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/resume/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/coursework/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/coursework/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/portfolio/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/portfolio/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/portraits/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/portraits/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/events/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/events/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/harvard/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/harvard/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/nature/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/nature/</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.jamescurtin.com/assorted/</loc>
-  <lastmod>2016-04-20T17:57:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.jamescurtin.com/resume/james_curtin_resume.pdf</loc>
-  <lastmod>2016-04-20T17:57:20+00:00</lastmod>
+  <loc>https://www.jamescurtin.com/resume/james_curtin_resume.pdf</loc>
+  <lastmod>2016-08-08T11:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
