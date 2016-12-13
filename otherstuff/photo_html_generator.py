@@ -3,20 +3,20 @@ import csv
 
 # 	List 1 is normal display
 # 	List 2 is the slider
-portrait1 = [1, 103, 118, 2, 3, 4, 119, 10, 20, 22,
-             40, 101, 78, 127, 84, 85, 124, 86, 96,
+portrait1 = [1, 103, 118, 2, 3, 146, 4, 119, 10, 20, 22,
+             40, 101, 78, 127, 84, 147, 85, 124, 86, 96,
              100, 102, 105, 125, 31, 126, 113, 120,
              122, 123]
-portrait2 = [1, 103, 2, 20, 4, 40, 96, 100, 127, 101,
+portrait2 = [1, 103, 2, 20, 146, 4, 40, 96, 100, 127, 101,
              118]
 
 people1 = []
 people2 = []
 
-events1 = [69, 103, 5, 21, 30, 87, 40, 41, 58, 59,
+events1 = [69, 103, 5, 21, 30, 145, 87, 40, 41, 58, 59,
            60, 61, 62, 64, 68, 79, 88, 89, 116, 92,
            93, 95, 99, 100, 101, 104, 105, 110, 115]
-events2 = [69, 62, 61, 40, 60, 100]
+events2 = [69, 62, 61, 40, 60, 145, 100]
 
 harvard1 = [6, 7, 8, 9, 111, 121, 11, 58, 68, 79, 90,
             27, 91]
@@ -67,6 +67,7 @@ def genHTML(photoList, html):
         file = open("../_includes/" + i.name + ".html", "w")
         file.write(base)
         file.close()
+
 
 portrait = Page("portrait", portrait1)
 portraitslider = Page("portraitslider", portrait2)
