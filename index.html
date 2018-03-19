@@ -1,33 +1,38 @@
 ---
 title: "James W. Curtin, Jr."
 author: "James Curtin"
-description: "I am a graduate of Harvard College where I studied Government and Computer Science. I have served as an elected member of the Bridgewater-Raynham Regional School Committee and am a former White House Associate. I enjoy photography, and do freelance work in the Cambridge area."
+description: "I am a graduate of Harvard College where I studied Government and Computer Science. I have served as an elected member of the Bridgewater-Raynham Regional School Committee and am a former White House Associate. I enjoy photography, and do freelance work in the Cambridge area. I currently work at Wayfair."
 keywords: "about, harvard, white house, james curtin, james, curtin, photography, bridgewater, raynham"
 
 photo1: "highres_97.jpg"
-photo2: "highres_19.jpg"
+photo2: "highres_152.jpg"
 photo3: "highres_76.jpg"
 photo4: "highres_33.jpg"
 photo5: "highres_53.jpg"
 photo6: "highres_67.jpg"
 photo7: "highres_45.jpg"
 photo8: "highres_81.jpg"
+last_modified_at: 2018-03-18 20:18
 ---
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57664313-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-57664313-1');
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>{{ page.title }}</title>
-    <meta name="author" content="{{ page.author }}">
-    <meta name="description" content="{{ page.description }}">
     <meta name="keywords" content="{{ page.keywords }}">
 
     <!-- Mobile Devices Viewport Resset-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
     <!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=1" /> -->
-    <link rel='stylesheet' id='stylesheet-css'  href='/includes/css/style.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='stylesheet-css'  href='/includes/css/style.css' type='text/css' media='all' />
     <style id='stylesheet-inline-css' type='text/css'>
         .large-header .page-title-wrapper{min-height:450px; height:450px;}.index #header, .index #footer {
             display: none;
@@ -39,6 +44,7 @@ photo8: "highres_81.jpg"
             height: 0;
         }
     </style>
+    {% seo %}
 </head>
 
 <body class="home page page-template page-template-template-fullscreen-slider page-template-template-fullscreen-slider-php fixed-header no-slider icons-style-light parallax-header">
@@ -138,10 +144,10 @@ photo8: "highres_81.jpg"
     </div> <!-- end #main-container -->
 
     <!-- FOOTER ENDS -->
-    <script type='text/javascript' src='/includes/js/jquery/jquery-1.11.1.min.js'></script>
-    <script type='text/javascript' src='/includes/js/jquery/jquery-migrate-1.2.1.min.js'></script>
+    <script type='text/javascript' src='/includes/js/jquery/jquery-3.3.1.min.js'></script>
+    <script type='text/javascript' src='/includes/js/jquery/jquery-migrate-3.0.1.min.js'></script>
     <script type='text/javascript' src='/includes/js/underscore.min.js'></script>
-    <script type='text/javascript' src='/includes/js/jquery/jquery.cookie.min.js'></script>
+    <script type='text/javascript' src='/includes/js/jquery/js.cookie.js'></script>
     <script type='text/javascript' src='/includes/js/main.min.js'></script>
     <script type='text/javascript' src='/includes/js/fullpage.min.js'></script>
     <noscript id="deferred-styles">
@@ -175,17 +181,6 @@ photo8: "highres_81.jpg"
         jQuery(document).ready(function($){SITE.init.initSite();
             new SITE.Fullpage(".section", {"animateElements":true,"autoplay":true,"autoplayInterval":3000,"horizontalAutoplay":false}).init();
         });
-    </script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
-            a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;
-            a.src=g;
-            m.parentNode.insertBefore(a,m)})
-        (window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-57664313-1', 'auto');
-        ga('send', 'pageview');
     </script>
 </body>
 </html>

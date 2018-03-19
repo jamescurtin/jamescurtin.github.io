@@ -1,6 +1,0 @@
-    <div class="nivo-content"><div class="nivo-wrapper"><div class="nivo-slider" id="nivo-slider-611" style="max-height:600px;"><img src="includes/img/sliders/slider_1.jpg" title="" alt="" /><img src="includes/img/sliders/slider_2.jpg" title="" alt="" /><img src="includes/img/sliders/slider_3.jpg" title="" alt="" /><img src="includes/img/sliders/slider_4.jpg" title="" alt="" /><img src="includes/img/sliders/slider_5.jpg" title="" alt="" /><img src="includes/img/sliders/slider_6.jpg" title="" alt="" /><img src="includes/img/sliders/slider_7.jpg" title="" alt="" /><img src="includes/img/sliders/slider_8.jpg" title="" alt="" /></div></div></div>
-    
-<script type="text/javascript" src="includes/js/nivo-slider.js"></script>
-<script type="text/javascript">var SITE = SITE || {};SITE.lightboxOptions = {"theme":"pp_default","animation_speed":"normal","overlay_gallery":false,"allow_resize":true};SITE.disableRightClick=false;SITE.stickyHeader=true;jQuery(document).ready(function($){
-					SITE.init.initSite();SITE.init.nivoSlider($("#nivo-slider-611"), {"interval":2000,"speed":300,"autoplay":true,"pauseOnHover":true,"buttons":true,"arrows":true});
-		});</script>

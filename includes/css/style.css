@@ -7225,10 +7225,10 @@ body.page-template-template-fullscreen-slider-php.mobile {
 /* ------------ ICON FONTS CSS -------------*/
 /*------ Icon Fonts Arrows --------*/
 @font-face {
-  font-weight: normal;
+  font-family: 'Font Awesome 5 Free';
   font-style: normal;
-  font-family: 'FontAwesome';
-}
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
 .icon-arrow-left,
 .icon-arrow-down,
 .icon-arrow-up,
@@ -7254,15 +7254,10 @@ body.page-template-template-fullscreen-slider-php.mobile {
 .controlArrow.prev,
 .controlArrow.next,
 .nav-menu ul ul li .drop-arrow {
-  text-transform: none;
-  font-weight: normal;
+font-family: 'Font Awesome 5 Free';
   font-style: normal;
-  font-variant: normal;
-  font-family: 'FontAwesome';
-  line-height: 1;
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-}
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
 .nivo-prevNav,
 .nivo-nextNav,
 .left-arrow,
@@ -7391,10 +7386,10 @@ body.page-template-template-fullscreen-slider-php.mobile {
 }
 /* Icons Fonts Icons*/
 @font-face {
-  font-weight: normal;
+font-family: 'Font Awesome 5 Free';
   font-style: normal;
-  font-family: 'FontAwesome';
-}
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
 .icon-page,
 .icon-lightbox,
 .icon-photo,
@@ -7419,15 +7414,11 @@ body.page-template-template-fullscreen-slider-php.mobile {
 .icon-basket,
 .pex-woo-cart-btn,
 .format-aside .post-type-icon {
-  text-transform: none;
-  font-weight: normal;
+font-family: 'Font Awesome 5 Free';
   font-style: normal;
-  font-variant: normal;
-  font-family: 'FontAwesome';
-  line-height: 1;
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-}
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+
 .icon-photo:before,
 .smallslider-icon:before,
 .fullslider-icon:before,
@@ -9110,7 +9101,9 @@ input.minus {
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Free';
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
   line-height: 1;
   speak: none;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);

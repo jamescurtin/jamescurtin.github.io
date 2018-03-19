@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57664313-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-57664313-1');
+    </script>
     <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
     <meta charset="UTF-8">
-    <meta name="author" content="James Curtin">
-    <meta name="description" content="{{ page.description }}">
     <meta name="keywords" content="{{ page.keywords }}">
-    <title>{{ page.title }}</title>
 
     <!-- Mobile Devices Viewport Resset-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-    <!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=1" /> -->
-    <link rel='stylesheet' id='stylesheet-css'  href='/includes/css/style.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='stylesheet-css'  href='/includes/css/style.css' type='text/css' media='all' />
     <style id='stylesheet-inline-css' type='text/css'>
         .large-header .page-title-wrapper{min-height:450px; height:450px;}.index #header, .index #footer {
             display: none;
@@ -25,6 +27,7 @@
             height: 0;
         }
     </style>
+    {% seo %}
 </head>
 
 <body class="page page-template page-template-template-full-custom page-template-template-full-custom-php fixed-header no-slider icons-style-light parallax-header">
