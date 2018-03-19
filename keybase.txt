@@ -4,48 +4,48 @@ https://keybase.io/jameswcurtin
 
 I hereby claim:
 
-  * I am an admin of https://jamescurtin.com
+  * I am an admin of https://www.jamescurtin.com
   * I am jameswcurtin (https://keybase.io/jameswcurtin) on keybase.
-  * I have a public key ASCECoV0_3li_TDqkvASkw997bBvX3HNJX290UqwMH7Epwo
+  * I have a public key ASBzkgTHyFAOjIhgbeCRbAuTUlua5AOleJqpPC1v3RLVwwo
 
 To do so, I am signing this object:
 
 {
-  “body”: {
-    “key”: {
-      “eldest_kid”: “0120840a8574ff7962fd30ea92f012930f7dedb06f5f71cd257dbdd14ab0307ec4a70a”,
-      “host”: “keybase.io”,
-      “kid”: “0120840a8574ff7962fd30ea92f012930f7dedb06f5f71cd257dbdd14ab0307ec4a70a”,
-      “uid”: “1b3176fb1b94ee133b58fbef9cab7319",
-      “username”: “jameswcurtin”
+  "body": {
+    "key": {
+      "eldest_kid": "0120840a8574ff7962fd30ea92f012930f7dedb06f5f71cd257dbdd14ab0307ec4a70a",
+      "host": "keybase.io",
+      "kid": "0120739204c7c8500e8c88606de0916c0b93525b9ae403a5789aa93c2d6fdd12d5c30a",
+      "uid": "1b3176fb1b94ee133b58fbef9cab7319",
+      "username": "jameswcurtin"
     },
-    “merkle_root”: {
-      “ctime”: 1521419785,
-      “hash”: “a40f3da509ec805604d7bb0f3643b0972ad6c18051b2486ff7c474274b678f58b5fdfa1bfe57ad1a3e1626f14cb08cb6c4374e31c06389e945e20abff77d9adf”,
-      “hash_meta”: “9aa197f3cb134bcfd2fdd4184344bcd66164984a59aad6cee3c3f1c165664eb3",
-      “seqno”: 2254120
+    "merkle_root": {
+      "ctime": 1521421517,
+      "hash": "dcb7d1b17d0b0819c12bb728af1fd81598673ac0467767d322cba02372c7052badbee90c8cf0e7b96ef5e2b88e58e463b5f769f7e5da0f9490fc5f5bf517aaed",
+      "hash_meta": "bbfd894c1eb13f086cdf3c7d32b4d331bff68ca4ec71269b19e8eafbfbbfa7b1",
+      "seqno": 2254180
     },
-    “service”: {
-      “hostname”: “jamescurtin.com”,
-      “protocol”: “https:”
+    "service": {
+      "hostname": "www.jamescurtin.com",
+      "protocol": "https:"
     },
-    “type”: “web_service_binding”,
-    “version”: 1
+    "type": "web_service_binding",
+    "version": 1
   },
-  “client”: {
-    “name”: “keybase.io go client”,
-    “version”: “1.0.45"
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.45"
   },
-  “ctime”: 1521419853,
-  “expire_in”: 504576000,
-  “prev”: “8b8483fa4a41090ba723c016634e6f8751e380ee895d187df61855fb232ad4d0",
-  “seqno”: 5,
-  “tag”: “signature”
+  "ctime": 1521421530,
+  "expire_in": 504576000,
+  "prev": "40d953f6c8ad7d3f36d93a444a2eaf237db47fa8ece408a9869cb10396e8b4c4",
+  "seqno": 14,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghAqFdP95Yv0w6pLwEpMPfe2wb19xzSV9vdFKsDB+xKcKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwODQwYTg1NzRmZjc5NjJmZDMwZWE5MmYwMTI5MzBmN2RlZGIwNmY1ZjcxY2QyNTdkYmRkMTRhYjAzMDdlYzRhNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODQwYTg1NzRmZjc5NjJmZDMwZWE5MmYwMTI5MzBmN2RlZGIwNmY1ZjcxY2QyNTdkYmRkMTRhYjAzMDdlYzRhNzBhIiwidWlkIjoiMWIzMTc2ZmIxYjk0ZWUxMzNiNThmYmVmOWNhYjczMTkiLCJ1c2VybmFtZSI6ImphbWVzd2N1cnRpbiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUyMTQxOTc4NSwiaGFzaCI6ImE0MGYzZGE1MDllYzgwNTYwNGQ3YmIwZjM2NDNiMDk3MmFkNmMxODA1MWIyNDg2ZmY3YzQ3NDI3NGI2NzhmNThiNWZkZmExYmZlNTdhZDFhM2UxNjI2ZjE0Y2IwOGNiNmM0Mzc0ZTMxYzA2Mzg5ZTk0NWUyMGFiZmY3N2Q5YWRmIiwiaGFzaF9tZXRhIjoiOWFhMTk3ZjNjYjEzNGJjZmQyZmRkNDE4NDM0NGJjZDY2MTY0OTg0YTU5YWFkNmNlZTNjM2YxYzE2NTY2NGViMyIsInNlcW5vIjoyMjU0MTIwfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImphbWVzY3VydGluLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjQ1In0sImN0aW1lIjoxNTIxNDE5ODUzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjhiODQ4M2ZhNGE0MTA5MGJhNzIzYzAxNjYzNGU2Zjg3NTFlMzgwZWU4OTVkMTg3ZGY2MTg1NWZiMjMyYWQ0ZDAiLCJzZXFubyI6NSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECZB3D5Wuv/p9EMHlkZjZ5W2D1jH6hD9qT6YyvrJfDfxwTNmIFpmPEiZ5aM5o0JLMdDCTTS8jyiGAhVEDFYZQ8CqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgHfayaC8LRTbJnmxM+VybszaXyIIfLle0Sq4Veo0rAkqjdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgc5IEx8hQDoyIYG3gkWwLk1JbmuQDpXiaqTwtb90S1cMKp3BheWxvYWTFA1B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwODQwYTg1NzRmZjc5NjJmZDMwZWE5MmYwMTI5MzBmN2RlZGIwNmY1ZjcxY2QyNTdkYmRkMTRhYjAzMDdlYzRhNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzM5MjA0YzdjODUwMGU4Yzg4NjA2ZGUwOTE2YzBiOTM1MjViOWFlNDAzYTU3ODlhYTkzYzJkNmZkZDEyZDVjMzBhIiwidWlkIjoiMWIzMTc2ZmIxYjk0ZWUxMzNiNThmYmVmOWNhYjczMTkiLCJ1c2VybmFtZSI6ImphbWVzd2N1cnRpbiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUyMTQyMTUxNywiaGFzaCI6ImRjYjdkMWIxN2QwYjA4MTljMTJiYjcyOGFmMWZkODE1OTg2NzNhYzA0Njc3NjdkMzIyY2JhMDIzNzJjNzA1MmJhZGJlZTkwYzhjZjBlN2I5NmVmNWUyYjg4ZTU4ZTQ2M2I1Zjc2OWY3ZTVkYTBmOTQ5MGZjNWY1YmY1MTdhYWVkIiwiaGFzaF9tZXRhIjoiYmJmZDg5NGMxZWIxM2YwODZjZGYzYzdkMzJiNGQzMzFiZmY2OGNhNGVjNzEyNjliMTllOGVhZmJmYmJmYTdiMSIsInNlcW5vIjoyMjU0MTgwfSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5qYW1lc2N1cnRpbi5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40NSJ9LCJjdGltZSI6MTUyMTQyMTUzMCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI0MGQ5NTNmNmM4YWQ3ZDNmMzZkOTNhNDQ0YTJlYWYyMzdkYjQ3ZmE4ZWNlNDA4YTk4NjljYjEwMzk2ZThiNGM0Iiwic2Vxbm8iOjE0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEu4+8CbuqBDQI3A5U3Pt3ugprMLMxrFl0CSuP0NtR0Vniabit1j3r90CnmHYtW+cbOO2mg6CF5gwmfmVoXnEQ2oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBKWIu5yjaHzw6zTyQ1EQZ4/++ReGnjSZc00/PlflYiNaN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
