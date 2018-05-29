@@ -9901,7 +9901,7 @@ div.pp_default .pp_close {
 }
 
 
-.nivo-slider; {
+.nivo-slider {
     align-content: center;
 }
 
@@ -9909,7 +9909,7 @@ div.pp_default .pp_close {
 width: 100%;
 }
 
-.nivo-slider; {
+.nivo-slider {
     max-height: 600px;
     max-width: 901px;
 }

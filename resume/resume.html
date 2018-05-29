@@ -1,0 +1,71 @@
+---
+---
+{% assign content = site.data.resume_content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="../includes/css/normalize.min.css" rel="stylesheet">
+    <link href="../includes/css/font-awesome.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:b|Lusitana:b|Raleway|Fanwood+Text|Crimson+Text" rel="stylesheet">
+    <link href="../includes/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../includes/css/resume_style.css" rel="stylesheet" type="text/css">
+    <title>Resume | {{ content.name }}</title>
+</head>
+<body lang="en">
+    <section id="main">
+        <section class="main-block">
+            <span class="header" id="name">{{ content.name }}</span>
+            <span id="contact-info">{{ content.phone_number }} • {{ content.email }} <br>{{ content.webpage }}</span>
+        </section>
+
+        {% for section in content.sections %}
+        <section class="{{ section.type }}">
+            <h2 class="header">
+                <i class="{{ section.icon }}"></i>
+                {{ section.title }}
+            </h2>
+            <hr class="line">
+            {% for entry in section.entries %}
+            <section class="blocks">
+                <div class="date">
+                    {% if section.temporal == true %}
+                    <span>{{ entry.start_date }}</span>
+                    <span>{{ entry.end_date }}</span>
+                    {% endif %}
+                </div>
+                {% if section.temporal == true %}
+                <div class="decorator"></div>
+                {% endif %}
+                {% if section.type == 'main-block-concise' %}
+                <div class="details minmargin">
+                {% else %}
+                <div class="details">
+                {% endif %}
+                    {% if section.temporal == true %}
+                    <header>
+                        <h3 class="header">{{ entry.name }}</h3>
+                        <span class="place">{{ entry.title }}</span>
+                        <span class="location">{{ entry.location }}</span>
+                    </header>
+                    {% endif %}
+                    {% if section.type == 'main-block-concise' %}
+                    <div class="concise">
+                    {% else %}
+                    <div>
+                    {% endif %}
+                        <ul>
+                        {% for content in entry.contents %}
+                            <li>{{ content }}</li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                    <div>
+                </div>
+            </section>
+            {% endfor %}
+        {% endfor %}
+        </section>
+    </section>
+</body>
+</html>
