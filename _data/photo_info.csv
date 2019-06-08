@@ -12,11 +12,11 @@ id,title,caption,alt
 11,"Pforzheimer House, Radcliffe Quadrangle",Radcliffe Quadrangle; Winter 2015,"Pforzheimer House, Radcliffe Quadrangle"
 12,Sled Dog,Lake Umbagog; Winter 2015,Sled Dog
 13,Photographing the Sunset,Lake Umbagog; Winter 2015,Photographing the Sunset
-14,Dogsledding Team,Lake Umbagog; Winter 2015,Dogsledding Team
+14,Dog sledding Team,Lake Umbagog; Winter 2015,Dog sledding Team
 15,Orchids,Leverett House; Summer 2015,Orchids
 16,Sidewalk Garden,"Salem, MA; Summer 2015",Sidewalk Garden
 17,The Ames Mansion,"Easton, MA; Winter 2015",The Ames Mansion
-18,,"Easton, MA; Winter 2015",
+18,"Flower, B&W","Easton, MA; Winter 2015","Flower, B&W"
 19,Swan on the Charles,Charles River; January 2016,Swan on the Charles
 20,"Elizabeth Mahon, Lowell House",Lowell House; January 2016,"Elizabeth Mahon, Lowell House"
 21,"Jason Ahn, Pforzheimer House Senior Dinner",Pforzheimer House; Spring 2015,"Jason Ahn, Pforzheimer House Senior Dinner"
@@ -62,7 +62,7 @@ id,title,caption,alt
 61,Quad Formal Guests,Radcliffe Quadrangle; Spring 2015,Quad Formal Guests
 62,,Radcliffe Quadrangle; Spring 2015,Playing Card Headband
 63,Pforzheimer House Glassblowing Workshop,"Cambridge, MA; Spring 2015",Pforzheimer House Glassblowing Workshop
-64,,,
+64,NA,NA,NA
 65,Starry Sky,"Bridgewater, MA; Winter 2013",Starry Sky
 66,Lantern,Harvard Business School; Winter 2013,Lantern
 67,Irish Famine Memorial,"Cambridge Common, Cambridge, Massachusetts; Winter 2013",Irish Famine Memorial
@@ -78,7 +78,7 @@ id,title,caption,alt
 77,18th Century Gravestone,"Bridgewater, MA; Spring 2014",18th Century Gravestone
 78,Pforzheimer House Art Show,Pforzheimer House; Spring 2014,Pforzheimer House Art Show
 79,"Benediction; Drew Faust, President of Harvard University","Cambridge, MA; Spring 2014","Drew Faust, President of Harvard University"
-80,Skyline Drive,Virginia; Summer 2014,
+80,Skyline Drive,Virginia; Summer 2014,Skyline Drive
 81,Summer Flowers,"Dumbarton Oaks, Washington, DC; Summer 2012",Summer Flowers
 82,Summer Flowers,"Dumbarton Oaks, Washington, DC; Summer 2012",Summer Flowers
 83,Summer Flowers,"Dumbarton Oaks, Washington, DC; Summer 2012",Summer Flowers
@@ -95,8 +95,8 @@ id,title,caption,alt
 94,Harvard Thinks Big,"Sanders Theater, Cambridge, MA; Spring 2015",Harvard Thinks Big
 95,Harvard Thinks Big,"Sanders Theater, Cambridge, MA; Spring 2015",Harvard Thinks Big
 96,David Malan,"Sanders Theater, Cambridge, MA; Spring 2015",David Malan
-97,,,
-98,,,
+97,NA,NA,NA
+98,NA,NA,NA
 99,Harvard Collegum Musicum,"Sanders Theater, Cambridge, MA; Spring 2016",Harvard Collegum Musicum
 100,Quad Formal,Radcliffe Quadrangle; Spring 2016,Quad Formal
 101,Quad Formal,Radcliffe Quadrangle; Spring 2016,Quad Formal
@@ -104,17 +104,17 @@ id,title,caption,alt
 103,Quad Formal,Radcliffe Quadrangle; Spring 2016,Quad Formal
 104,Quad Formal,Radcliffe Quadrangle; Spring 2016,Quad Formal
 105,Quad Formal,Radcliffe Quadrangle; Spring 2016,Quad Formal
-106,,,
-107,,,
+106,NA,NA,NA
+107,NA,NA,NA
 108,Glacial Melt,"Jökulsárlón, Iceland; Summer 2015",Glacial Melt
 109,Gullfoss,"Gullfoss, Gullfossi, Iceland; Summer 2015",Gullfoss
 110,Birthday Party Guests,"Cambridge, MA; Fall 2014",Birthday Party Guests
 111,Harvard in Fall,"Harvard Yard, Cambridge, MA; Fall 2013",Harvard in Fall
 112,Head of the Charles,"Charles River, Cambridge, MA; Fall 2013",Head of the Charles
 113,Blocking Group Photo,"Pforzheimer House, Cambridge MA; Winter 2013",Blocking Group Photo
-114,,,
+114,NA,NA,NA
 115,Pforzheimer House Glassblowing Workshop,"Cambridge, MA; Spring 2015",Pforzheimer House Glassblowing Workshop
-116,St. Paul's Choir School,"St. Pauls, Cambridge, MA; Spring 2014",St. Paul's Choir School
+116,St. Paul's Choir School,"St. Paul's, Cambridge, MA; Spring 2014",St. Paul's Choir School
 117,Bleeding Hearts,"Bridgewater, MA; Spring 2014",Bleeding Hearts
 118,Taylor Weary Senior Photo,"Weeks Footbridge, Cambridge, MA; Spring 2016",Taylor Weary Senior Photo
 119,Lexie Schachne Senior Photo,"Weeks Footbridge, Cambridge, MA; Spring 2016",Lexie Schachne Senior Photo
