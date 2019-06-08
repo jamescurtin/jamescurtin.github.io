@@ -64,7 +64,7 @@ def genHTML(photoList, html):
                          html[2] + slug + html[3] + result[slug]["alt"] +
                          html[4] + result[slug]["title"] + html[5])
             else:
-                base += html[0] + slug + html[1] + result[slug]["title"] + html[2]
+                base += html[0] + slug + html[1] + result[slug]["title"] + html[2] + result[slug]["alt"] + html[3]
         file = open("../_includes/" + i.name + ".html", "w")
         file.write(base)
         file.close()
@@ -103,7 +103,7 @@ html1 = [
 ]
 
 html2 = [
-    '<img src="/includes/img/highres/highres_', '.jpg" title="', '" alt="" />'
+    '<img src="/includes/img/highres/highres_', '.jpg" title="', '" alt="', '" />'
 ]
 
 genHTML(biglist1, html1)

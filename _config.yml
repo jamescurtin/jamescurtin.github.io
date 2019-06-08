@@ -36,6 +36,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 whitelist:
   - jekyll-redirect-from
