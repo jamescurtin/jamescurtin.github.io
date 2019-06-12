@@ -1,18 +1,15 @@
-language: ruby
-rvm:
-  - 2.6.3
-
-script: ./script/cibuild
-
 env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - DOCKER_COMPOSE_VERSION=1.24.0
 
-addons:
-  apt:
-    packages:
-    - libcurl4-openssl-dev
+services:
+  - docker
 
-sudo: false
+before_install:
+  - sudo rm /usr/local/bin/docker-compose
+  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
+  - chmod +x docker-compose
+  - sudo mv docker-compose /usr/local/bin
+  - docker-compose build test
 
-cache: bundler
+script:
+  - docker-compose run --user='root' --rm test

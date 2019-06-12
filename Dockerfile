@@ -1,6 +1,5 @@
 FROM jekyll/jekyll:3
 
-
 WORKDIR /site
 EXPOSE 4000
 
