@@ -1,0 +1,22 @@
+version: '3.6'
+
+x-defaults: &defaults
+  volumes:
+    - ./:/site
+  build: .
+
+services:
+  update:
+    command: [ "bundle", "update" ]
+    <<: *defaults
+
+  web:
+    entrypoint: [ "bundle", "exec", "jekyll", "serve" ]
+    command: [ "-H", "0.0.0.0" ]
+    ports:
+      - "4000:4000"
+    <<: *defaults
+
+  test:
+    entrypoint: [ "./script/cibuild" ]
+    <<: *defaults

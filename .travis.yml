@@ -1,4 +1,4 @@
-nguage: ruby
+language: ruby
 rvm:
   - 2.6.3
 
@@ -16,4 +16,3 @@ addons:
 sudo: false
 
 cache: bundler
-
