@@ -2,7 +2,7 @@
 Theme Name: Story
 Distributed by Pexto Themes
 License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 var SITE = SITE || {};

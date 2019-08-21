@@ -2,7 +2,7 @@
 Theme Name: Story
 Distributed by Pexto Themes
 License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 var SITE = SITE || {};
 
@@ -907,7 +907,7 @@ var SITE = SITE || {};
 
 /*
  * jScrollPane - v2.0.0beta11 - 2011-07-04
- * http://jscrollpane.kelvinluck.com/
+ * https://jscrollpane.kelvinluck.com/
  *
  * Copyright (c) 2010 Kelvin Luck
  * Dual licensed under the MIT and GPL licenses.
