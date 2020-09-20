@@ -35,6 +35,7 @@ Copyright = '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target
     name = "Portraits"
     parent = "portfolio"
     url = "/portraits"
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -55,29 +56,30 @@ Copyright = '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target
     theme = "#252627"
 
   [params.logo]
-    logoText     = "jamescurtin"
+    logoText     = "jamescurtin/"
     logoHomeLink = "/"
-    logoColor    = "#2B7BBE"
+    logoCursorColor    = "#2b7bbe"
 
-  [params.social]
-    enable = true
-    [[params.social.list]]
-      title = "jamescurtin"
-      icon = "fab fa-github"
-      url  = "https://github.com/jamescurtin"
-    [[params.social.list]]
-      title = "jamescurtin"
-      icon = "fab fa-keybase"
-      url  = "https://keybase.io/jameswcurtin"
-    [[params.social.list]]
-      title = "@jameswcurtin"
-      icon = "fab fa-linkedin-in"
-      url  = "https://www.linkedin.com/in/jameswcurtin"
-    [[params.social.list]]
-      title = "jameswcurtin@alumni.harvard.edu"
-      icon = "far fa-envelope"
-      url  = "mailto:jameswcurtin@alumni.harvard.edu"
+  [[params.social]]
+    name = "github"
+    icon = "fab fa-github"
+    url  = "https://github.com/jamescurtin"
+  [[params.social]]
+    name = "keybase"
+    icon = "fab fa-keybase"
+    url  = "https://keybase.io/jameswcurtin"
+  [[params.social]]
+    name = "linkedin"
+    icon = "fab fa-linkedin-in"
+    url  = "https://www.linkedin.com/in/jameswcurtin"
+  [[params.social]]
+    name = "email"
+    icon = "far fa-envelope"
+    url  = "mailto:jameswcurtin@alumni.harvard.edu"
 
+  [params.portrait]
+    path     = "assets/images/avatar.png"
+    alt      = "Portrait"
 
   [params.resume]
     description = "James Curtin's Resume"
