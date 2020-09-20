@@ -1,0 +1,80 @@
+[
+    {
+        "src": "/assets/images/highres_6.jpg",
+        "thumb": "/assets/images/photo_6.jpg",
+        "subHtml": "<b>Pforzheimer Polar Bears</b><br>Pforzheimer House; Spring 2016",
+        "image_id": 6
+    },
+    {
+        "src": "/assets/images/highres_7.jpg",
+        "thumb": "/assets/images/photo_7.jpg",
+        "subHtml": "<b>Polar Bear John Harvard, Housing Day</b><br>Harvard Yard; March 2016",
+        "image_id": 7
+    },
+    {
+        "src": "/assets/images/highres_8.jpg",
+        "thumb": "/assets/images/photo_8.jpg",
+        "subHtml": "<b>Harvard Housing Day Celebrations</b><br>Harvard Yard; March 2016",
+        "image_id": 8
+    },
+    {
+        "src": "/assets/images/highres_9.jpg",
+        "thumb": "/assets/images/photo_9.jpg",
+        "subHtml": "<b>Pforzheimer House, Radcliffe Quadrangle</b><br>Radcliffe Quadrangle; Winter 2015",
+        "image_id": 9
+    },
+    {
+        "src": "/assets/images/highres_11.jpg",
+        "thumb": "/assets/images/photo_11.jpg",
+        "subHtml": "<b>Pforzheimer House, Radcliffe Quadrangle</b><br>Radcliffe Quadrangle; Winter 2015",
+        "image_id": 11
+    },
+    {
+        "src": "/assets/images/highres_27.jpg",
+        "thumb": "/assets/images/photo_27.jpg",
+        "subHtml": "<b>Veritas</b><br>Widener Library; Spring 2015",
+        "image_id": 27
+    },
+    {
+        "src": "/assets/images/highres_58.jpg",
+        "thumb": "/assets/images/photo_58.jpg",
+        "subHtml": "<b>Quad Ice Bar</b><br>Pforzheimer House; Winter 2014",
+        "image_id": 58
+    },
+    {
+        "src": "/assets/images/highres_68.jpg",
+        "thumb": "/assets/images/photo_68.jpg",
+        "subHtml": "<b>The Game</b><br>Harvard Stadium; Fall 2014",
+        "image_id": 68
+    },
+    {
+        "src": "/assets/images/highres_79.jpg",
+        "thumb": "/assets/images/photo_79.jpg",
+        "subHtml": "<b>Benediction; Drew Faust, President of Harvard University</b><br>Cambridge, MA; Spring 2014",
+        "image_id": 79
+    },
+    {
+        "src": "/assets/images/highres_90.jpg",
+        "thumb": "/assets/images/photo_90.jpg",
+        "subHtml": "<b>Loker Reading Room</b><br>Widener Library, Cambridge, MA; Fall 2015",
+        "image_id": 90
+    },
+    {
+        "src": "/assets/images/highres_91.jpg",
+        "thumb": "/assets/images/photo_91.jpg",
+        "subHtml": "<b>Widener Library</b><br>Widener Library, Cambridge, MA; Fall 2015",
+        "image_id": 91
+    },
+    {
+        "src": "/assets/images/highres_111.jpg",
+        "thumb": "/assets/images/photo_111.jpg",
+        "subHtml": "<b>Harvard in Fall</b><br>Harvard Yard, Cambridge, MA; Fall 2013",
+        "image_id": 111
+    },
+    {
+        "src": "/assets/images/highres_121.jpg",
+        "thumb": "/assets/images/photo_121.jpg",
+        "subHtml": "<b>Veritas</b><br>Widener Library; Spring 2016",
+        "image_id": 121
+    }
+]

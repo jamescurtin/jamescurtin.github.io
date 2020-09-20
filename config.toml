@@ -1,0 +1,253 @@
+baseURL = "https://jamescurtin.com/"
+languageCode = "en-us"
+title = "James W. Curtin"
+theme = ["hello-friend", "resume"]
+googleAnalytics = "UA-57664313-1"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+canonifyURLs    = true
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+Copyright = '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a>'
+
+[author]
+  name = "James Curtin"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "/resume"
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio"
+  [[menu.main]]
+    identifier = "portraits"
+    name = "Portraits"
+    parent = "portfolio"
+    url = "/portraits"
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  homeTitle = "James W. Curtin, Jr."
+  homeSubtitle = "Software Engineering Manager"
+  gitUrl = "https://github.com/jamescurtin/jamescurtin.github.io/commit/"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "jamescurtin"
+    logoHomeLink = "/"
+    logoColor    = "#2B7BBE"
+
+  [params.social]
+    enable = true
+    [[params.social.list]]
+      title = "jamescurtin"
+      icon = "fab fa-github"
+      url  = "https://github.com/jamescurtin"
+    [[params.social.list]]
+      title = "jamescurtin"
+      icon = "fab fa-keybase"
+      url  = "https://keybase.io/jameswcurtin"
+    [[params.social.list]]
+      title = "@jameswcurtin"
+      icon = "fab fa-linkedin-in"
+      url  = "https://www.linkedin.com/in/jameswcurtin"
+    [[params.social.list]]
+      title = "jameswcurtin@alumni.harvard.edu"
+      icon = "far fa-envelope"
+      url  = "mailto:jameswcurtin@alumni.harvard.edu"
+
+
+  [params.resume]
+    description = "James Curtin's Resume"
+    primaryColor = "#2B7BBE"
+    textPrimaryColor = "#292929"
+
+    [params.resume.profile]
+      enable = true
+      name = "James W. Curtin"
+      tagline = "Software Engineering Manager"
+      avatar = "avatar.png"
+
+    [params.resume.summary]
+        enable = true
+        text = "I am an experienced engineering and analytics leader that emphasizes intuitive interface design and well tested, high-quality code. I build tools to solve problems faced by data analysts, data engineers, and data scientists, developing close relationships with business partners along the way. In my personal time, I contribute to the open source software community: I maintain <a href='https://cookiecutter-flask.org/'>cookiecutter-flask</a>, and also maintain or contribute to a number of smaller projects. "
+
+    [params.resume.contact]
+      enable = true
+      location = "Boston"
+      [[params.resume.contact.list]]
+        icon = "fas fa-mobile"
+        url = "tel:+15089421412"
+        text = "Call Me"
+      [[params.resume.contact.list]]
+        icon = "fas fa-envelope"
+        url = "mailto:jameswcurtin@alumni.harvard.edu"
+        text = "Email Me"
+      [[params.resume.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://jamescurtin.com"
+        text = "jamescurtin.com"
+
+
+    [params.resume.skills]
+      enable = true
+      [[params.resume.skills.list]]
+        title = "Technical"
+      [[params.resume.skills.list.items]]
+        details = "Python (Flask, FastAPI, Pandas)"
+      [[params.resume.skills.list.items]]
+        details = "Docker"
+      [[params.resume.skills.list.items]]
+        details = "Kubernetes, Helm"
+      [[params.resume.skills.list.items]]
+        details = "Vertica, MS SQL Server, Postgres"
+      [[params.resume.skills.list.items]]
+        details = "Bash"
+      [[params.resume.skills.list.items]]
+        details = "Git"
+      [[params.resume.skills.list.items]]
+        details = "HTML5"
+
+      [[params.resume.skills.list]]
+        title = "Professional"
+      [[params.resume.skills.list.items]]
+        details = "API Development"
+      [[params.resume.skills.list.items]]
+        details = "Data engineering"
+      [[params.resume.skills.list.items]]
+        details = "Effective CI/CD pipeline development"
+
+    [params.resume.education]
+      enable = true
+      [[params.resume.education.list]]
+        degree = "AB Government, Secondary in Computer Science"
+        university = "Harvard College"
+        dates = "2012 - 2016"
+
+    [params.resume.awards]
+      enable = false
+      [[params.resume.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.resume.languages]
+      enable = false
+      [[params.resume.languages.list]]
+        name = "English"
+        level = "Native"
+
+    [params.resume.interests]
+      enable = true
+      [[params.resume.interests.list]]
+      name = "Photography"
+      [[params.resume.interests.list]]
+      name = "Scouting (Eagle Scout)"
+      [[params.resume.interests.list]]
+      name = "Falconry (Licensed falconer)"
+
+
+    [params.resume.experience]
+      enable = true
+
+      [[params.resume.experience.list]]
+        title = "Manager, Analytics Engineering"
+        dates = "Sep 2018 - Present"
+        company = "Wayfair LLC"
+        details = "Built dev team focused on improving the efficiency and efficacy of analysts, data engineers, and data scientists. We architect & build tools that must be cloud-first, and have a high bar for maintaining scalable & extensible platforms."
+
+      [[params.resume.experience.list]]
+        title = "Senior Analyst, B2B Insights & Analytics"
+        dates = "Jul 2017 - Sep 2018"
+        company = "Wayfair LLC"
+      [[params.resume.experience.list.items]]
+        details = "Integrated external partner APIs with internal applications to automate performance reporting, reducing time needed to manage accounts by more than 20%"
+      [[params.resume.experience.list.items]]
+        details = "Built infrastructure to optimize real-time ad campaign bidding decisions resulting in 10% increase in revenue"
+      [[params.resume.experience.list.items]]
+        details = "Optimized predictive customer value modeling by constructing new parallel data processing and analysis pipelines"
+      [[params.resume.experience.list.items]]
+        details = "Managed bidding, targeting, and creative assets for Facebook campaigns grossing more than $4.5 million annually"
+
+      [[params.resume.experience.list]]
+        title = "Quantitative Analyst"
+        dates = "Jun 2016 - Jul 2017"
+        company = "Everquote Inc."
+
+      [[params.resume.experience.list.items]]
+        details = "Integrated external partner APIs with internal applications to automate performance reporting, reducing time needed to manage accounts by more than 20%"
+      [[params.resume.experience.list.items]]
+              details = "Built infrastructure to optimize real-time ad campaign bidding decisions resulting in 10% increase in revenue"
+      [[params.resume.experience.list.items]]
+              details = "Optimized predictive customer value modeling by constructing new parallel data processing and analysis pipelines"
+      [[params.resume.experience.list.items]]
+              details = "Managed bidding, targeting, and creative assets for Facebook campaigns grossing more than $4.5 million annually"
+
+      [[params.resume.experience.list]]
+        title = "Software Developer"
+        dates = "Mar 2015 - May 2016"
+        company = "Harvard University IT"
+
+        [[params.resume.experience.list.items]]
+        details = "Developed an open source Django application with Angular.js to manage geodata at the Graduate School of Design"
+        [[params.resume.experience.list.items]]
+                details = "Built API to integrate application with Harvard’s learning management system"
+        [[params.resume.experience.list.items]]
+                details = "Worked with a team based on the Agile method. Worked using Vagrant and Puppet"
+
+      [[params.resume.experience.list]]
+        title = "Associate"
+        dates = "May 2014 - Aug 2014"
+        company = "The White House"
+
+        [[params.resume.experience.list.items]]
+        details = "Developed methodology for analyzing correspondence sent to the President, resulting in 10.6x increase in throughput with increased accuracy rate of 35%."
+        [[params.resume.experience.list.items]]
+                details = "Managed the performance and output quality of a rotating team of approximately eight volunteers"
+        [[params.resume.experience.list.items]]
+                details = "Completed individual projects including: processing VIP mail, managing special constituent requests, creating a performance database to support identification of volunteers who would benefit from additional training, and reporting on emerging trends from the incoming mail."
+
+
+    [params.resume.projects]
+      enable = true
+
+      [[params.resume.projects.list]]
+        title = "cookiecutter-flask"
+        meta = "Open Source"
+        tagline = "Primary maintainer of Flask template that provides out-of-the box support for creating new web applications (~3k stars on Github)."
+
+      [[params.resume.projects.list]]
+        title = "sonarscanner-buildkite-plugin"
+        meta = "Open Source"
+        tagline = "Developed plugin that enables developers to report back to Sonarqube as part of a Buildkite CI pipeline."
+
+
+    [params.resume.information]
+      enable = false
+
+      [[params.resume.information.list]]
+        title = "Papers"
+      [[params.resume.information.list.items]]
+        details = "2018 · Lorem Ipsum"

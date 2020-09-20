@@ -1,0 +1,410 @@
+[
+    {
+        "src": "/assets/images/highres_12.jpg",
+        "thumb": "/assets/images/photo_12.jpg",
+        "subHtml": "<b>Sled Dog</b><br>Lake Umbagog; Winter 2015",
+        "image_id": 12
+    },
+    {
+        "src": "/assets/images/highres_13.jpg",
+        "thumb": "/assets/images/photo_13.jpg",
+        "subHtml": "<b>Photographing the Sunset</b><br>Lake Umbagog; Winter 2015",
+        "image_id": 13
+    },
+    {
+        "src": "/assets/images/highres_14.jpg",
+        "thumb": "/assets/images/photo_14.jpg",
+        "subHtml": "<b>Dog sledding Team</b><br>Lake Umbagog; Winter 2015",
+        "image_id": 14
+    },
+    {
+        "src": "/assets/images/highres_15.jpg",
+        "thumb": "/assets/images/photo_15.jpg",
+        "subHtml": "<b>Orchids</b><br>Leverett House; Summer 2015",
+        "image_id": 15
+    },
+    {
+        "src": "/assets/images/highres_16.jpg",
+        "thumb": "/assets/images/photo_16.jpg",
+        "subHtml": "<b>Sidewalk Garden</b><br>Salem, MA; Summer 2015",
+        "image_id": 16
+    },
+    {
+        "src": "/assets/images/highres_17.jpg",
+        "thumb": "/assets/images/photo_17.jpg",
+        "subHtml": "<b>The Ames Mansion</b><br>Easton, MA; Winter 2015",
+        "image_id": 17
+    },
+    {
+        "src": "/assets/images/highres_18.jpg",
+        "thumb": "/assets/images/photo_18.jpg",
+        "subHtml": "<b>Flower, B&W</b><br>Easton, MA; Winter 2015",
+        "image_id": 18
+    },
+    {
+        "src": "/assets/images/highres_19.jpg",
+        "thumb": "/assets/images/photo_19.jpg",
+        "subHtml": "<b>Swan on the Charles</b><br>Charles River; January 2016",
+        "image_id": 19
+    },
+    {
+        "src": "/assets/images/highres_25.jpg",
+        "thumb": "/assets/images/photo_25.jpg",
+        "subHtml": "<b>Snail on Snail</b><br>World's End; Summer 2015",
+        "image_id": 25
+    },
+    {
+        "src": "/assets/images/highres_28.jpg",
+        "thumb": "/assets/images/photo_28.jpg",
+        "subHtml": "<b>Memorial Drive on a Sunday</b><br>Cambridge, MA; Summer 2015",
+        "image_id": 28
+    },
+    {
+        "src": "/assets/images/highres_29.jpg",
+        "thumb": "/assets/images/photo_29.jpg",
+        "subHtml": "<b>Summer Storm Clouds</b><br>Cambridge, MA; Summer 2015",
+        "image_id": 29
+    },
+    {
+        "src": "/assets/images/highres_33.jpg",
+        "thumb": "/assets/images/photo_33.jpg",
+        "subHtml": "<b>Fir Tree</b><br>Spectacle Island; Summer 2015",
+        "image_id": 33
+    },
+    {
+        "src": "/assets/images/highres_34.jpg",
+        "thumb": "/assets/images/photo_34.jpg",
+        "subHtml": "<b>Beach Flowers</b><br>Spectacle Island; Summer 2015",
+        "image_id": 34
+    },
+    {
+        "src": "/assets/images/highres_35.jpg",
+        "thumb": "/assets/images/photo_35.jpg",
+        "subHtml": "<b>Canadian Geese</b><br>George's Island; Summer 2015",
+        "image_id": 35
+    },
+    {
+        "src": "/assets/images/highres_36.jpg",
+        "thumb": "/assets/images/photo_36.jpg",
+        "subHtml": "<b>Barnacles</b><br>George's Island; Summer 2015",
+        "image_id": 36
+    },
+    {
+        "src": "/assets/images/highres_37.jpg",
+        "thumb": "/assets/images/photo_37.jpg",
+        "subHtml": "<b>Old Dock</b><br>George's Island; Summer 2015",
+        "image_id": 37
+    },
+    {
+        "src": "/assets/images/highres_38.jpg",
+        "thumb": "/assets/images/photo_38.jpg",
+        "subHtml": "<b>Green Trellis</b><br>Christopher Columbus Park, Boston, MA; Summer 2015",
+        "image_id": 38
+    },
+    {
+        "src": "/assets/images/highres_42.jpg",
+        "thumb": "/assets/images/photo_42.jpg",
+        "subHtml": "<b>Laugavegur Street</b><br>Reykjavik, Iceland; Summer 2015",
+        "image_id": 42
+    },
+    {
+        "src": "/assets/images/highres_43.jpg",
+        "thumb": "/assets/images/photo_43.jpg",
+        "subHtml": "<b>Seagull Landing</b><br>Reykjavik, Iceland; Summer 2015",
+        "image_id": 43
+    },
+    {
+        "src": "/assets/images/highres_44.jpg",
+        "thumb": "/assets/images/photo_44.jpg",
+        "subHtml": "<b>Holavallagardur Cemetary</b><br>Reykjavik, Iceland; Summer 2015",
+        "image_id": 44
+    },
+    {
+        "src": "/assets/images/highres_45.jpg",
+        "thumb": "/assets/images/photo_45.jpg",
+        "subHtml": "<b>Seljalandsfoss</b><br>Þórsmerkurvegur, Iceland; Summer, 2015",
+        "image_id": 45
+    },
+    {
+        "src": "/assets/images/highres_46.jpg",
+        "thumb": "/assets/images/photo_46.jpg",
+        "subHtml": "<b>Seljalandsfoss</b><br>Þórsmerkurvegur, Iceland; Summer, 2015",
+        "image_id": 46
+    },
+    {
+        "src": "/assets/images/highres_47.jpg",
+        "thumb": "/assets/images/photo_47.jpg",
+        "subHtml": "<b>Driving Through Iceland</b><br>Iceland; Summer 2015",
+        "image_id": 47
+    },
+    {
+        "src": "/assets/images/highres_48.jpg",
+        "thumb": "/assets/images/photo_48.jpg",
+        "subHtml": "<b>Skógafoss</b><br>Skogar, Iceland; Summer 2015",
+        "image_id": 48
+    },
+    {
+        "src": "/assets/images/highres_49.jpg",
+        "thumb": "/assets/images/photo_49.jpg",
+        "subHtml": "<b>Skógafoss</b><br>Skogar, Iceland; Summer 2015",
+        "image_id": 49
+    },
+    {
+        "src": "/assets/images/highres_50.jpg",
+        "thumb": "/assets/images/photo_50.jpg",
+        "subHtml": "<b>Rauðhólar</b><br>Heiðmörk, Iceland; Summer 2015",
+        "image_id": 50
+    },
+    {
+        "src": "/assets/images/highres_51.jpg",
+        "thumb": "/assets/images/photo_51.jpg",
+        "subHtml": "<b>Rauðhólar</b><br>Heiðmörk, Iceland; Summer 2015",
+        "image_id": 51
+    },
+    {
+        "src": "/assets/images/highres_52.jpg",
+        "thumb": "/assets/images/photo_52.jpg",
+        "subHtml": "<b>Mt. Kirkjufell</b><br>Grundarfjörður, Iceland; Summer 2015",
+        "image_id": 52
+    },
+    {
+        "src": "/assets/images/highres_53.jpg",
+        "thumb": "/assets/images/photo_53.jpg",
+        "subHtml": "<b>The Blue Lagoon</b><br>Grindavík, Iceland; Summer 2015",
+        "image_id": 53
+    },
+    {
+        "src": "/assets/images/highres_54.jpg",
+        "thumb": "/assets/images/photo_54.jpg",
+        "subHtml": "<b>The Blue Lagoon</b><br>Grindavík, Iceland; Summer 2015",
+        "image_id": 54
+    },
+    {
+        "src": "/assets/images/highres_55.jpg",
+        "thumb": "/assets/images/photo_55.jpg",
+        "subHtml": "<b>Mt. Auburn Cemetary Tower</b><br>Mt. Auburn Cemetary, Cambridge; Fall 2015",
+        "image_id": 55
+    },
+    {
+        "src": "/assets/images/highres_56.jpg",
+        "thumb": "/assets/images/photo_56.jpg",
+        "subHtml": "<b>Holly</b><br>Mt. Auburn Cemetary, Cambridge; Fall 2015",
+        "image_id": 56
+    },
+    {
+        "src": "/assets/images/highres_57.jpg",
+        "thumb": "/assets/images/photo_57.jpg",
+        "subHtml": "<b>Cat in Black & White</b><br>Pforzheimer House; Spring 2016",
+        "image_id": 57
+    },
+    {
+        "src": "/assets/images/highres_65.jpg",
+        "thumb": "/assets/images/photo_65.jpg",
+        "subHtml": "<b>Starry Sky</b><br>Bridgewater, MA; Winter 2013",
+        "image_id": 65
+    },
+    {
+        "src": "/assets/images/highres_70.jpg",
+        "thumb": "/assets/images/photo_70.jpg",
+        "subHtml": "<b>Found in the Woods</b><br>Middleboro, MA; Fall 2014",
+        "image_id": 70
+    },
+    {
+        "src": "/assets/images/highres_71.jpg",
+        "thumb": "/assets/images/photo_71.jpg",
+        "subHtml": "<b>Pointing Pheasant</b><br>Middleboro, MA; Fall 2014",
+        "image_id": 71
+    },
+    {
+        "src": "/assets/images/highres_72.jpg",
+        "thumb": "/assets/images/photo_72.jpg",
+        "subHtml": "<b>Chicken Coop</b><br>Middleboro, MA; Fall 2014",
+        "image_id": 72
+    },
+    {
+        "src": "/assets/images/highres_73.jpg",
+        "thumb": "/assets/images/photo_73.jpg",
+        "subHtml": "<b>Frosty Window</b><br>Bridgewater, MA; Winter 2013",
+        "image_id": 73
+    },
+    {
+        "src": "/assets/images/highres_75.jpg",
+        "thumb": "/assets/images/photo_75.jpg",
+        "subHtml": "<b>Out Hawking</b><br>Bridgewater, MA; Winter 2013",
+        "image_id": 75
+    },
+    {
+        "src": "/assets/images/highres_77.jpg",
+        "thumb": "/assets/images/photo_77.jpg",
+        "subHtml": "<b>18th Century Gravestone</b><br>Bridgewater, MA; Spring 2014",
+        "image_id": 77
+    },
+    {
+        "src": "/assets/images/highres_80.jpg",
+        "thumb": "/assets/images/photo_80.jpg",
+        "subHtml": "<b>Skyline Drive</b><br>Virginia; Summer 2014",
+        "image_id": 80
+    },
+    {
+        "src": "/assets/images/highres_81.jpg",
+        "thumb": "/assets/images/photo_81.jpg",
+        "subHtml": "<b>Summer Flowers</b><br>Dumbarton Oaks, Washington, DC; Summer 2012",
+        "image_id": 81
+    },
+    {
+        "src": "/assets/images/highres_82.jpg",
+        "thumb": "/assets/images/photo_82.jpg",
+        "subHtml": "<b>Summer Flowers</b><br>Dumbarton Oaks, Washington, DC; Summer 2012",
+        "image_id": 82
+    },
+    {
+        "src": "/assets/images/highres_83.jpg",
+        "thumb": "/assets/images/photo_83.jpg",
+        "subHtml": "<b>Summer Flowers</b><br>Dumbarton Oaks, Washington, DC; Summer 2012",
+        "image_id": 83
+    },
+    {
+        "src": "/assets/images/highres_108.jpg",
+        "thumb": "/assets/images/photo_108.jpg",
+        "subHtml": "<b>Glacial Melt</b><br>Jökulsárlón, Iceland; Summer 2015",
+        "image_id": 108
+    },
+    {
+        "src": "/assets/images/highres_109.jpg",
+        "thumb": "/assets/images/photo_109.jpg",
+        "subHtml": "<b>Gullfoss</b><br>Gullfoss, Gullfossi, Iceland; Summer 2015",
+        "image_id": 109
+    },
+    {
+        "src": "/assets/images/highres_112.jpg",
+        "thumb": "/assets/images/photo_112.jpg",
+        "subHtml": "<b>Head of the Charles</b><br>Charles River, Cambridge, MA; Fall 2013",
+        "image_id": 112
+    },
+    {
+        "src": "/assets/images/highres_117.jpg",
+        "thumb": "/assets/images/photo_117.jpg",
+        "subHtml": "<b>Bleeding Hearts</b><br>Bridgewater, MA; Spring 2014",
+        "image_id": 117
+    },
+    {
+        "src": "/assets/images/highres_129.jpg",
+        "thumb": "/assets/images/photo_129.jpg",
+        "subHtml": "<b>Golden Gate Bridge</b><br>Vista Point, Sausalito, CA; Fall 2016",
+        "image_id": 129
+    },
+    {
+        "src": "/assets/images/highres_130.jpg",
+        "thumb": "/assets/images/photo_130.jpg",
+        "subHtml": "<b>Spider Web</b><br>Muir Woods National Monument, CA; Fall 2016",
+        "image_id": 130
+    },
+    {
+        "src": "/assets/images/highres_132.jpg",
+        "thumb": "/assets/images/photo_132.jpg",
+        "subHtml": "<b>Coast Redwoods</b><br>Muir Woods National Monument, CA; Fall 2016",
+        "image_id": 132
+    },
+    {
+        "src": "/assets/images/highres_133.jpg",
+        "thumb": "/assets/images/photo_133.jpg",
+        "subHtml": "<b>Coast Redwoods</b><br>Muir Woods National Monument, CA; Fall 2016",
+        "image_id": 133
+    },
+    {
+        "src": "/assets/images/highres_134.jpg",
+        "thumb": "/assets/images/photo_134.jpg",
+        "subHtml": "<b>Yosemite Tunnel View</b><br>Yosemite National Park, CA; Fall 2016",
+        "image_id": 134
+    },
+    {
+        "src": "/assets/images/highres_135.jpg",
+        "thumb": "/assets/images/photo_135.jpg",
+        "subHtml": "<b>Lower Yosemite Falls</b><br>Yosemite National Park, CA; Fall 2016",
+        "image_id": 135
+    },
+    {
+        "src": "/assets/images/highres_136.jpg",
+        "thumb": "/assets/images/photo_136.jpg",
+        "subHtml": "<b>Lower Yosemite Falls</b><br>Yosemite National Park, CA; Fall 2016",
+        "image_id": 136
+    },
+    {
+        "src": "/assets/images/highres_139.jpg",
+        "thumb": "/assets/images/photo_139.jpg",
+        "subHtml": "<b>Lower Yosemite Falls</b><br>Yosemite National Park, CA; Fall 2016",
+        "image_id": 139
+    },
+    {
+        "src": "/assets/images/highres_140.jpg",
+        "thumb": "/assets/images/photo_140.jpg",
+        "subHtml": "<b>Bridalveil Falls</b><br>Yosemite National Park, CA; Fall 2016",
+        "image_id": 140
+    },
+    {
+        "src": "/assets/images/highres_141.jpg",
+        "thumb": "/assets/images/photo_141.jpg",
+        "subHtml": "<b>Bridalveil Falls</b><br>Yosemite National Park, CA; Fall 2016",
+        "image_id": 141
+    },
+    {
+        "src": "/assets/images/highres_142.jpg",
+        "thumb": "/assets/images/photo_142.jpg",
+        "subHtml": "<b>El Capitan</b><br>Yosemite National Park, CA; Fall 2016",
+        "image_id": 142
+    },
+    {
+        "src": "/assets/images/highres_143.jpg",
+        "thumb": "/assets/images/photo_143.jpg",
+        "subHtml": "<b>Yosemite National Park</b><br>Yosemite National Park, CA; Fall 2016",
+        "image_id": 143
+    },
+    {
+        "src": "/assets/images/highres_144.jpg",
+        "thumb": "/assets/images/photo_144.jpg",
+        "subHtml": "<b>Golden Gate Bridge</b><br>Telegraph Hill, San Fransisco, CA; Fall 2016",
+        "image_id": 144
+    },
+    {
+        "src": "/assets/images/highres_150.jpg",
+        "thumb": "/assets/images/photo_150.jpg",
+        "subHtml": "<b>Nesting Gulls</b><br>Látrabjarg; Summer 2017",
+        "image_id": 150
+    },
+    {
+        "src": "/assets/images/highres_151.jpg",
+        "thumb": "/assets/images/photo_151.jpg",
+        "subHtml": "<b>Standing Puffin</b><br>Látrabjarg; Summer 2017",
+        "image_id": 151
+    },
+    {
+        "src": "/assets/images/highres_152.jpg",
+        "thumb": "/assets/images/photo_152.jpg",
+        "subHtml": "<b>Puffin</b><br>Látrabjarg; Summer 2017",
+        "image_id": 152
+    },
+    {
+        "src": "/assets/images/highres_153.jpg",
+        "thumb": "/assets/images/photo_153.jpg",
+        "subHtml": "<b>Inside Gljúfrabúi</b><br>Gljúfrabúi; Summer 2017",
+        "image_id": 153
+    },
+    {
+        "src": "/assets/images/highres_154.jpg",
+        "thumb": "/assets/images/photo_154.jpg",
+        "subHtml": "<b>View from Skógafoss</b><br>Skógafoss; Summer 2017",
+        "image_id": 154
+    },
+    {
+        "src": "/assets/images/highres_155.jpg",
+        "thumb": "/assets/images/photo_155.jpg",
+        "subHtml": "<b>View from Skógafoss</b><br>Skógafoss; Summer 2017",
+        "image_id": 155
+    },
+    {
+        "src": "/assets/images/highres_156.jpg",
+        "thumb": "/assets/images/photo_156.jpg",
+        "subHtml": "<b>James on the Fimmvörðuháls trail</b><br>Fimmvörðuháls trail; Summer 2017",
+        "image_id": 156
+    }
+]
