@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  server:
+    image: peaceiris/hugo:v${HUGO_VERSION}
+    command:
+      - server
+      - --bind=0.0.0.0
+      - --buildDrafts
+    volumes:
+      - .:/src
+    ports:
+      - 1313:1313
