@@ -23,6 +23,7 @@ jobs:
         with:
           hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
           extended: true
+      - run: hugo version
       - name: Build
         run: hugo --minify
       - name: Deploy
