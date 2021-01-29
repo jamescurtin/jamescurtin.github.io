@@ -4,6 +4,11 @@
 
 Personal site built using [Hugo](https://gohugo.io).
 
+## Local Development
+
+This repository contains submodules.
+Be sure to recursively clone all submodules (_e.g._ `git clone --recursive ...`).
+
 ## Running
 
 To run locally:

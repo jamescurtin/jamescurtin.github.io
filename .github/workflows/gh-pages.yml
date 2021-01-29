@@ -19,7 +19,7 @@ jobs:
           . ./.env
           echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@6fca5e4b8e6d255965d7fcd4667b3130016cb272
+        uses: peaceiris/actions-hugo@2e89aa66d0093e4cd14751b3028fc1a179452c2e
         with:
           hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
           extended: true
@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: hugo --minify
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@05a7c4edd9040cd807b15e6ca8a52fcab5cc0a17
+        uses: peaceiris/actions-gh-pages@bbdfb200618d235585ad98e965f4aafc39b4c501
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
