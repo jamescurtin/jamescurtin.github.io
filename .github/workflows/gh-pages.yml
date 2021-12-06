@@ -19,7 +19,7 @@ jobs:
           . ./.env
           echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@c03b5dbed22245418539b65eb9a3b1d5fdd9a0a6
+        uses: peaceiris/actions-hugo@008429aaabf87bac670904f069d682b7493ef9e1
         with:
           hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
           extended: true
