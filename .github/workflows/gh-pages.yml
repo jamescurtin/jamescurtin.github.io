@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: hugo --minify
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@d7ab6dea490c8d393a652c34d5f44e2d0708914d
+        uses: peaceiris/actions-gh-pages@127e2d7a36a613d271c3724758462936d9ed28f1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
